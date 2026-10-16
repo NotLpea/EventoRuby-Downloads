@@ -1,0 +1,2260 @@
+{
+  "schemaVersion": 1,
+  "id": "pruebas",
+  "revision": "prism-1.21.1-r1",
+  "minecraft": "1.21.1",
+  "fabric": "0.19.5",
+  "java": 21,
+  "mods": [
+    {
+      "id": "architectury",
+      "version": "13.0.11",
+      "path": "mods/architectury-13.0.11-fabric.jar",
+      "size": 600921,
+      "sha256": "ab17d5c7d8d8c93cc713437ed426f0ff0d6f802a48fff0c579a9bd3aaa833efd",
+      "md5": "5d7a93f9b84d8facf6a7d7a51d71158b",
+      "url": "https://cdn.modrinth.com/data/lhGA9TYQ/versions/Pzc2FP5K/architectury-13.0.11-fabric.jar",
+      "releaseRequired": false,
+      "environment": "*",
+      "serverSide": "required",
+      "clientSide": "required",
+      "license": {
+        "id": "LGPL-3.0-only",
+        "name": "GNU Lesser General Public License v3.0 only",
+        "url": null
+      },
+      "depends": {
+        "minecraft": "~1.21-",
+        "fabricloader": ">=0.15.11",
+        "fabric-api": ">=0.100.0"
+      },
+      "provides": [],
+      "nested": []
+    },
+    {
+      "id": "badoptimizations",
+      "version": "2.4.1",
+      "path": "mods/BadOptimizations-2.4.1-1.21.1.jar",
+      "size": 283566,
+      "sha256": "22e2467892d3706f43d1cf2aa637785bb8601c20b0098a82ab956e6a8fc4d2ba",
+      "md5": "59ee243a5ccd09fff1dd2879b3cad72a",
+      "url": "https://cdn.modrinth.com/data/g96Z4WVZ/versions/S2qthD5S/BadOptimizations-2.4.1-1.21.1.jar",
+      "releaseRequired": false,
+      "environment": "client",
+      "serverSide": "unsupported",
+      "clientSide": "required",
+      "license": {
+        "id": "MIT",
+        "name": "MIT License",
+        "url": null
+      },
+      "depends": {
+        "minecraft": ">=1.21.1",
+        "fabricloader": ">=0.15.0"
+      },
+      "provides": [],
+      "nested": [
+        {
+          "id": "com_github_llamalad7_mixinextras",
+          "version": "0.2.2",
+          "provides": [],
+          "depends": {
+            "fabricloader": ">=0.14.11"
+          }
+        }
+      ]
+    },
+    {
+      "id": "balm",
+      "version": "21.0.63",
+      "path": "mods/balm-fabric-1.21.1-21.0.63.jar",
+      "size": 809717,
+      "sha256": "4c3604961b74e9cbc91efb1a93daa2f4e55354a46afc93cb74f0de543fd86391",
+      "md5": "5e38debfa0b29738bcdeef2511dda84d",
+      "url": "https://cdn.modrinth.com/data/MBAkmtvl/versions/R6U3hZRZ/balm-fabric-1.21.1-21.0.63.jar",
+      "releaseRequired": false,
+      "environment": "*",
+      "serverSide": "optional",
+      "clientSide": "optional",
+      "license": {
+        "id": "LicenseRef-All-Rights-Reserved",
+        "name": "",
+        "url": "https://mods.twelveiterations.com/permissions"
+      },
+      "depends": {
+        "fabricloader": ">=0.16.3",
+        "fabric-api": "*",
+        "minecraft": ">=1.21.1",
+        "java": ">=21"
+      },
+      "provides": [
+        "balm-fabric"
+      ],
+      "nested": [
+        {
+          "id": "kuma_api",
+          "version": "21.0.8",
+          "provides": [],
+          "depends": {
+            "fabricloader": ">=0.15.11",
+            "fabric-api": "*",
+            "minecraft": ">=1.21",
+            "java": ">=21"
+          }
+        }
+      ]
+    },
+    {
+      "id": "betterf3",
+      "version": "11.0.3",
+      "path": "mods/BetterF3-11.0.3-Fabric-1.21.1.jar",
+      "size": 1810710,
+      "sha256": "e0e4bb25fbe23b16b7574474ee9fde5cdc9757d05885bc43978f4ea5e8e258ad",
+      "md5": "4f3a811be18c5c1cb64f39f3de6fb0bd",
+      "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/phATjGhF/BetterF3-11.0.3-Fabric-1.21.1.jar",
+      "releaseRequired": false,
+      "environment": "client",
+      "serverSide": "unsupported",
+      "clientSide": "required",
+      "license": {
+        "id": "MIT",
+        "name": "MIT License",
+        "url": null
+      },
+      "depends": {
+        "fabricloader": ">=0.15.11",
+        "minecraft": ">=1.21"
+      },
+      "provides": [],
+      "nested": [
+        {
+          "id": "cloth-config",
+          "version": "15.0.127",
+          "provides": [
+            "cloth-config2"
+          ],
+          "depends": {
+            "fabricloader": ">=0.14.0",
+            "minecraft": ">=1.21-"
+          }
+        },
+        {
+          "id": "fabric-resource-loader-v0",
+          "version": "1.3.0+565991296a",
+          "provides": [],
+          "depends": {
+            "fabricloader": ">=0.15.11"
+          }
+        }
+      ]
+    },
+    {
+      "id": "chat_heads",
+      "version": "0.15.7",
+      "path": "mods/chat_heads-0.15.7-fabric-1.21.jar",
+      "size": 86944,
+      "sha256": "9ac63ac359ed20b416e6d4bd0d7b314a5688470232de1a30c894418cd0b3b788",
+      "md5": "94422ae39ff5ad7c6da661fffa61cb50",
+      "url": "https://cdn.modrinth.com/data/Wb5oqrBJ/versions/5t3tM2L3/chat_heads-0.15.7-fabric-1.21.jar",
+      "releaseRequired": false,
+      "environment": "client",
+      "serverSide": "unsupported",
+      "clientSide": "required",
+      "license": {
+        "id": "MPL-2.0",
+        "name": "Mozilla Public License 2.0",
+        "url": null
+      },
+      "depends": {
+        "fabricloader": ">=0.17.0",
+        "minecraft": ">=1.21 <=1.21.1"
+      },
+      "provides": [],
+      "nested": []
+    },
+    {
+      "id": "cloth-config",
+      "version": "15.0.140",
+      "path": "mods/cloth-config-15.0.140-fabric.jar",
+      "size": 1157166,
+      "sha256": "33894e95da3af59014b39d126586d5241e07ea39f8618763e30dab637405f95f",
+      "md5": "a2c091b027ad6ba8e54b07020fd45884",
+      "url": "https://cdn.modrinth.com/data/9s6osm5g/versions/HpMb5wGb/cloth-config-15.0.140-fabric.jar",
+      "releaseRequired": false,
+      "environment": "*",
+      "serverSide": "optional",
+      "clientSide": "optional",
+      "license": {
+        "id": "LGPL-3.0-only",
+        "name": "GNU Lesser General Public License v3.0 only",
+        "url": null
+      },
+      "depends": {
+        "fabricloader": ">=0.14.0",
+        "minecraft": ">=1.21-"
+      },
+      "provides": [
+        "cloth-config2"
+      ],
+      "nested": [
+        {
+          "id": "cloth-basic-math",
+          "version": "0.6.1",
+          "provides": [],
+          "depends": {}
+        }
+      ]
+    },
+    {
+      "id": "custom_glow_enchantment_outline",
+      "version": "1.2.2",
+      "path": "mods/custom-glow-enchantment-outline-fabric-1.21.1-1.2.2.jar",
+      "size": 666758,
+      "sha256": "5aed55bfe0311412356e00b1d74cde60e7037f7ff4c6d2e505ea7609fd9abe72",
+      "md5": "81cfe76de59b690898c905f49fa180da",
+      "url": "https://cdn.modrinth.com/data/Q2rI8IqW/versions/b3YwMxdp/custom-glow-enchantment-outline-fabric-1.21.1-1.2.2.jar",
+      "releaseRequired": false,
+      "environment": "client",
+      "serverSide": "unsupported",
+      "clientSide": "required",
+      "license": {
+        "id": "LicenseRef-All-Rights-Reserved",
+        "name": "",
+        "url": null
+      },
+      "depends": {
+        "fabricloader": ">=0.19.3",
+        "minecraft": "~1.21.1",
+        "fabric-api": "*"
+      },
+      "provides": [],
+      "nested": []
+    },
+    {
+      "id": "e4all",
+      "version": "2.1.2",
+      "path": "mods/e4all-fabric-2.1.2.jar",
+      "size": 913334,
+      "sha256": "2779bd80166531f3612c0bb839465f14eba858e7f8f48beb2ac91346b3fda4a6",
+      "md5": "0a52913be182401068df66716b91c7de",
+      "url": "https://cdn.modrinth.com/data/fB1gJLGX/versions/W5plSm5t/e4all-fabric-2.1.2.jar",
+      "releaseRequired": false,
+      "environment": "*",
+      "serverSide": "required",
+      "clientSide": "optional",
+      "license": {
+        "id": "MIT",
+        "name": "MIT License",
+        "url": null
+      },
+      "depends": {
+        "fabricloader": ">=0.14.0",
+        "fabric-api": "*",
+        "minecraft": ">=1.18"
+      },
+      "provides": [
+        "e4mc_minecraft",
+        "e4mc"
+      ],
+      "nested": [
+        {
+          "id": "folk_sisby_kaleido-config",
+          "version": "0.3.3+1.3.2",
+          "provides": [],
+          "depends": {}
+        }
+      ]
+    },
+    {
+      "id": "e4mc",
+      "version": "6.2.3",
+      "path": "mods/e4mc-fabric-6.2.3.jar",
+      "size": 663705,
+      "sha256": "27a889a01c44d54cd05a2cec942b0e76f2fd05988060c1107f55bcdcf42818b5",
+      "md5": "42d79fd738dbda1dbf74266d1851747f",
+      "url": "https://cdn.modrinth.com/data/qANg5Jrr/versions/8wsUJ306/e4mc-fabric-6.2.3.jar",
+      "releaseRequired": false,
+      "environment": "*",
+      "serverSide": "required",
+      "clientSide": "required",
+      "license": {
+        "id": "MIT",
+        "name": "MIT License",
+        "url": null
+      },
+      "depends": {
+        "fabric": "*",
+        "minecraft": ">=1.18"
+      },
+      "provides": [
+        "e4mc_minecraft"
+      ],
+      "nested": [
+        {
+          "id": "folk_sisby_kaleido-config",
+          "version": "0.3.3+1.3.2",
+          "provides": [],
+          "depends": {}
+        }
+      ]
+    },
+    {
+      "id": "enhancedtooltips",
+      "version": "1.10.0+fabric.1.21.1",
+      "path": "mods/EnhancedTooltips-1.10.0+fabric.1.21.1.jar",
+      "size": 234850,
+      "sha256": "6204556a9658365dd798c734dd5a40d72558a3330b7cf2ae6e396bdf3b50104a",
+      "md5": "a2404a1fd5bb6ff879904319952d20e5",
+      "url": "https://cdn.modrinth.com/data/8H6RXl2q/versions/Yk8v8JQ5/EnhancedTooltips-1.10.0%2Bfabric.1.21.1.jar",
+      "releaseRequired": false,
+      "environment": "client",
+      "serverSide": "unsupported",
+      "clientSide": "required",
+      "license": {
+        "id": "MIT",
+        "name": "MIT License",
+        "url": "https://raw.githubusercontent.com/UltimatChamp/EnhancedTooltips/refs/heads/main/LICENSE"
+      },
+      "depends": {
+        "minecraft": ">=1.21 <=1.21.1",
+        "fabricloader": "*",
+        "fabric-api": "*",
+        "yet_another_config_lib_v3": "*"
+      },
+      "provides": [],
+      "nested": [
+        {
+          "id": "blue_endless_jankson",
+          "version": "1.2.3",
+          "provides": [],
+          "depends": {}
+        }
+      ]
+    },
+    {
+      "id": "entityculling",
+      "version": "1.11.2",
+      "path": "mods/entityculling-fabric-1.11.2-mc1.21.1.jar",
+      "size": 1519213,
+      "sha256": "4e5749475d8e951abaf666286cea18313b172588ee82714239f4adc9b5dfd9d9",
+      "md5": "5e9555e46f5c8814ff02d9f7c4e5f6fe",
+      "url": "https://cdn.modrinth.com/data/NNAgCjsB/versions/AaC52CuD/entityculling-fabric-1.11.2-mc1.21.1.jar",
+      "releaseRequired": false,
+      "environment": "*",
+      "serverSide": "unsupported",
+      "clientSide": "required",
+      "license": {
+        "id": "LicenseRef-tr7zw-Protective-License",
+        "name": "",
+        "url": "https://github.com/tr7zw/EntityCulling/blob/1.18/LICENSE-EntityCulling"
+      },
+      "depends": {
+        "minecraft": "1.21.1",
+        "fabric-api": "*"
+      },
+      "provides": [],
+      "nested": [
+        {
+          "id": "transition",
+          "version": "1.0.25",
+          "provides": [],
+          "depends": {
+            "minecraft": "1.21.1",
+            "fabric-api": "*"
+          }
+        },
+        {
+          "id": "trender",
+          "version": "1.0.17",
+          "provides": [],
+          "depends": {
+            "minecraft": "1.21.1",
+            "fabric-api": "*"
+          }
+        }
+      ]
+    },
+    {
+      "id": "explosiveenhancement",
+      "version": "1.3.2-1.21-1.21.1",
+      "path": "mods/explosive-enhancement-1.3.2-1.21-1.21.1.jar",
+      "size": 114621,
+      "sha256": "65467fdb249a6c87150cdc90ffd6bda3e06ee5a68aef0bdf004ddea920207eb1",
+      "md5": "d62388d31b37989bab24d59b68f9d617",
+      "url": "https://cdn.modrinth.com/data/OSQ8mw2r/versions/LEeJnb8j/explosive-enhancement-1.3.2-1.21-1.21.1.jar",
+      "releaseRequired": false,
+      "environment": "client",
+      "serverSide": "unsupported",
+      "clientSide": "required",
+      "license": {
+        "id": "MIT",
+        "name": "MIT License",
+        "url": null
+      },
+      "depends": {
+        "fabricloader": ">=0.14.8",
+        "fabric-api": "*",
+        "minecraft": ">=1.21.0 <=1.21.1",
+        "java": ">=21"
+      },
+      "provides": [],
+      "nested": []
+    },
+    {
+      "id": "fabric-api",
+      "version": "0.116.17+1.21.1",
+      "path": "mods/fabric-api-0.116.17+1.21.1.jar",
+      "size": 2452735,
+      "sha256": "79ac44b40780acbd884b34c50be1e39af682847e5f5cb3b1fddeeaa768dce800",
+      "md5": "e027a4f5fcf21ee26fa48de7e7033c2b",
+      "url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/Mys3P7lK/fabric-api-0.116.17%2B1.21.1.jar",
+      "releaseRequired": false,
+      "environment": "*",
+      "serverSide": "optional",
+      "clientSide": "optional",
+      "license": {
+        "id": "Apache-2.0",
+        "name": "Apache License 2.0",
+        "url": null
+      },
+      "depends": {
+        "fabricloader": ">=0.15.11",
+        "java": ">=21",
+        "minecraft": ">=1.21- <1.21.2-"
+      },
+      "provides": [
+        "fabric"
+      ],
+      "nested": [
+        {
+          "id": "fabric-api-base",
+          "version": "0.4.42+6573ed8c19",
+          "provides": [],
+          "depends": {
+            "fabricloader": ">=0.15.11"
+          }
+        },
+        {
+          "id": "fabric-api-lookup-api-v1",
+          "version": "1.6.72+7b3d111d19",
+          "provides": [],
+          "depends": {
+            "fabricloader": ">=0.15.11",
+            "fabric-api-base": "*",
+            "fabric-lifecycle-events-v1": "*"
+          }
+        },
+        {
+          "id": "fabric-biome-api-v1",
+          "version": "13.0.31+d527f9fd19",
+          "provides": [],
+          "depends": {
+            "fabricloader": ">=0.15.11",
+            "minecraft": ">=1.16.2"
+          }
+        },
+        {
+          "id": "fabric-block-api-v1",
+          "version": "1.1.0+0bc3503219",
+          "provides": [],
+          "depends": {
+            "fabricloader": ">=0.15.11"
+          }
+        },
+        {
+          "id": "fabric-block-view-api-v2",
+          "version": "1.0.11+ebb2264e19",
+          "provides": [],
+          "depends": {
+            "fabricloader": ">=0.15.11"
+          }
+        },
+        {
+          "id": "fabric-blockrenderlayer-v1",
+          "version": "1.1.52+0af3f5a719",
+          "provides": [],
+          "depends": {
+            "fabricloader": ">=0.15.11",
+            "minecraft": ">=1.15-alpha.19.38.b",
+            "fabric-api-base": "*"
+          }
+        },
+        {
+          "id": "fabric-client-tags-api-v1",
+          "version": "1.2.0+1eb36c0719",
+          "provides": [],
+          "depends": {
+            "fabricloader": ">=0.15.11"
+          }
+        },
+        {
+          "id": "fabric-command-api-v2",
+          "version": "2.2.28+6ced4dd919",
+          "provides": [],
+          "depends": {
+            "fabricloader": ">=0.15.11",
+            "fabric-api-base": "*",
+            "minecraft": ">1.19-alpha.22.11.a"
+          }
+        },
+        {
+          "id": "fabric-content-registries-v0",
+          "version": "8.0.19+b559734419",
+          "provides": [],
+          "depends": {
+            "fabricloader": ">=0.15.11",
+            "fabric-api-base": "*",
+            "fabric-lifecycle-events-v1": "*",
+            "fabric-resource-loader-v0": "*"
+          }
+        },
+        {
+          "id": "fabric-convention-tags-v2",
+          "version": "2.12.0+c3656daa19",
+          "provides": [],
+          "depends": {
+            "fabricloader": ">=0.15.11",
+            "minecraft": ">=1.20.5-beta.1",
+            "fabric-lifecycle-events-v1": "*"
+          }
+        },
+        {
+          "id": "fabric-crash-report-info-v1",
+          "version": "0.2.29+0af3f5a719",
+          "provides": [],
+          "depends": {
+            "fabricloader": ">=0.15.11"
+          }
+        },
+        {
+          "id": "fabric-data-attachment-api-v1",
+          "version": "1.4.7+5b36e0f719",
+          "provides": [],
+          "depends": {
+            "fabricloader": ">=0.15.11",
+            "fabric-entity-events-v1": "*",
+            "fabric-object-builder-api-v1": "*",
+            "fabric-networking-api-v1": "*"
+          }
+        },
+        {
+          "id": "fabric-data-generation-api-v1",
+          "version": "20.3.0+1eb36c0719",
+          "provides": [],
+          "depends": {
+            "fabricloader": ">=0.15.11"
+          }
+        },
+        {
+          "id": "fabric-dimensions-v1",
+          "version": "4.0.1+65213ef819",
+          "provides": [],
+          "depends": {
+            "fabricloader": ">=0.15.11",
+            "minecraft": ">=1.16-rc.3",
+            "fabric-api-base": "*"
+          }
+        },
+        {
+          "id": "fabric-entity-events-v1",
+          "version": "1.8.0+2b27e0a419",
+          "provides": [],
+          "depends": {
+            "fabricloader": ">=0.15.11"
+          }
+        },
+        {
+          "id": "fabric-events-interaction-v0",
+          "version": "0.7.14+ba9dae0619",
+          "provides": [],
+          "depends": {
+            "fabricloader": ">=0.15.11",
+            "fabric-api-base": "*",
+            "fabric-networking-api-v1": "*",
+            "minecraft": ">=1.15-alpha.19.37.a"
+          }
+        },
+        {
+          "id": "fabric-game-rule-api-v1",
+          "version": "1.0.53+6ced4dd919",
+          "provides": [],
+          "depends": {
+            "fabricloader": ">=0.15.11"
+          }
+        },
+        {
+          "id": "fabric-item-api-v1",
+          "version": "11.3.0+467044f319",
+          "provides": [],
+          "depends": {
+            "fabricloader": ">=0.15.11",
+            "fabric-api-base": "*"
+          }
+        },
+        {
+          "id": "fabric-item-group-api-v1",
+          "version": "4.1.7+def88e3a19",
+          "provides": [],
+          "depends": {
+            "fabricloader": ">=0.15.11",
+            "fabric-api-base": "*",
+            "fabric-resource-loader-v0": "*"
+          }
+        },
+        {
+          "id": "fabric-key-binding-api-v1",
+          "version": "1.0.47+0af3f5a719",
+          "provides": [],
+          "depends": {
+            "fabricloader": ">=0.15.11"
+          }
+        },
+        {
+          "id": "fabric-lifecycle-events-v1",
+          "version": "2.6.0+0865547519",
+          "provides": [],
+          "depends": {
+            "fabricloader": ">=0.15.11",
+            "fabric-api-base": "*"
+          }
+        },
+        {
+          "id": "fabric-loot-api-v3",
+          "version": "1.0.3+3f89f5a519",
+          "provides": [],
+          "depends": {
+            "fabricloader": ">=0.15.11",
+            "fabric-api-base": "*",
+            "fabric-resource-loader-v0": "*"
+          }
+        },
+        {
+          "id": "fabric-message-api-v1",
+          "version": "6.0.14+8aaf3aca19",
+          "provides": [],
+          "depends": {
+            "fabricloader": ">=0.15.11",
+            "fabric-api-base": "*"
+          }
+        },
+        {
+          "id": "fabric-model-loading-api-v1",
+          "version": "2.1.0+b4d813fc19",
+          "provides": [],
+          "depends": {
+            "fabricloader": ">=0.15.11",
+            "fabric-api-base": "*"
+          }
+        },
+        {
+          "id": "fabric-networking-api-v1",
+          "version": "4.3.1+d30f6a7919",
+          "provides": [],
+          "depends": {
+            "fabricloader": ">=0.15.11",
+            "fabric-api-base": "*"
+          }
+        },
+        {
+          "id": "fabric-object-builder-api-v1",
+          "version": "15.2.1+40875a9319",
+          "provides": [],
+          "depends": {
+            "fabricloader": ">=0.15.11",
+            "fabric-api-base": "*"
+          }
+        },
+        {
+          "id": "fabric-particles-v1",
+          "version": "4.0.2+6573ed8c19",
+          "provides": [],
+          "depends": {
+            "fabricloader": ">=0.15.11"
+          }
+        },
+        {
+          "id": "fabric-recipe-api-v1",
+          "version": "5.0.16+2475392c19",
+          "provides": [],
+          "depends": {
+            "fabricloader": ">=0.15.11",
+            "fabric-networking-api-v1": "*"
+          }
+        },
+        {
+          "id": "fabric-registry-sync-v0",
+          "version": "5.3.2+e3eddc2119",
+          "provides": [],
+          "depends": {
+            "fabricloader": ">=0.15.11",
+            "fabric-api-base": "*",
+            "fabric-networking-api-v1": "*"
+          }
+        },
+        {
+          "id": "fabric-renderer-api-v1",
+          "version": "3.4.1+b4d813fc19",
+          "provides": [],
+          "depends": {
+            "fabricloader": ">=0.15.11",
+            "minecraft": ">=1.15-alpha.19.39.a",
+            "fabric-api-base": "*"
+          }
+        },
+        {
+          "id": "fabric-renderer-indigo",
+          "version": "1.7.1+c705a49c19",
+          "provides": [],
+          "depends": {
+            "fabricloader": ">=0.15.11",
+            "minecraft": ">=1.15-alpha.19.39.a",
+            "fabric-api-base": "*",
+            "fabric-renderer-api-v1": "*"
+          }
+        },
+        {
+          "id": "fabric-rendering-fluids-v1",
+          "version": "3.1.6+1daea21519",
+          "provides": [],
+          "depends": {
+            "fabricloader": ">=0.15.11",
+            "fabric-api-base": "*"
+          }
+        },
+        {
+          "id": "fabric-rendering-v1",
+          "version": "5.2.1+f44c2eea19",
+          "provides": [],
+          "depends": {
+            "fabricloader": ">=0.15.11",
+            "fabric-api-base": "*"
+          }
+        },
+        {
+          "id": "fabric-resource-conditions-api-v1",
+          "version": "4.3.0+8dc279b119",
+          "provides": [],
+          "depends": {
+            "fabricloader": ">=0.15.11"
+          }
+        },
+        {
+          "id": "fabric-resource-loader-v0",
+          "version": "1.3.1+5b5275af19",
+          "provides": [],
+          "depends": {
+            "fabricloader": ">=0.15.11"
+          }
+        },
+        {
+          "id": "fabric-screen-api-v1",
+          "version": "2.0.26+639b4c0719",
+          "provides": [],
+          "depends": {
+            "fabricloader": ">=0.15.11",
+            "fabric-api-base": "*"
+          }
+        },
+        {
+          "id": "fabric-screen-handler-api-v1",
+          "version": "1.3.91+b559734419",
+          "provides": [],
+          "depends": {
+            "fabricloader": ">=0.15.11",
+            "fabric-api-base": "*",
+            "fabric-networking-api-v1": "*"
+          }
+        },
+        {
+          "id": "fabric-sound-api-v1",
+          "version": "1.0.23+6573ed8c19",
+          "provides": [],
+          "depends": {
+            "fabricloader": ">=0.15.11",
+            "minecraft": ">=1.19.2"
+          }
+        },
+        {
+          "id": "fabric-tag-api-v1",
+          "version": "1.3.0+1eb36c0719",
+          "provides": [],
+          "depends": {
+            "fabricloader": ">=0.15.11",
+            "fabric-api-base": "*",
+            "fabric-resource-loader-v0": "*"
+          }
+        },
+        {
+          "id": "fabric-transfer-api-v1",
+          "version": "5.4.4+7b3d111d19",
+          "provides": [],
+          "depends": {
+            "fabricloader": ">=0.15.11",
+            "fabric-api-lookup-api-v1": "*",
+            "fabric-rendering-fluids-v1": "*"
+          }
+        },
+        {
+          "id": "fabric-transitive-access-wideners-v1",
+          "version": "6.2.0+45b9699719",
+          "provides": [],
+          "depends": {
+            "fabricloader": ">=0.15.11"
+          }
+        },
+        {
+          "id": "fabric-command-api-v1",
+          "version": "1.2.49+f71b366f19",
+          "provides": [],
+          "depends": {
+            "fabricloader": ">=0.15.11",
+            "fabric-api-base": "*",
+            "fabric-command-api-v2": "*"
+          }
+        },
+        {
+          "id": "fabric-commands-v0",
+          "version": "0.2.66+df3654b319",
+          "provides": [],
+          "depends": {
+            "fabricloader": ">=0.15.11",
+            "fabric-api-base": "*",
+            "fabric-command-api-v2": "*"
+          }
+        },
+        {
+          "id": "fabric-convention-tags-v1",
+          "version": "2.1.7+7f945d5b19",
+          "provides": [],
+          "depends": {
+            "fabricloader": ">=0.15.11",
+            "minecraft": ">=1.18.2"
+          }
+        },
+        {
+          "id": "fabric-keybindings-v0",
+          "version": "0.2.45+df3654b319",
+          "provides": [],
+          "depends": {
+            "fabricloader": ">=0.15.11",
+            "fabric-key-binding-api-v1": "*"
+          }
+        },
+        {
+          "id": "fabric-loot-api-v2",
+          "version": "3.0.15+3f89f5a519",
+          "provides": [],
+          "depends": {
+            "fabricloader": ">=0.15.11",
+            "fabric-api-base": "*",
+            "fabric-resource-loader-v0": "*"
+          }
+        },
+        {
+          "id": "fabric-renderer-registries-v1",
+          "version": "3.2.71+df3654b319",
+          "provides": [],
+          "depends": {
+            "fabricloader": ">=0.15.11",
+            "minecraft": ">=1.15-alpha.19.39.a",
+            "fabric-api-base": "*",
+            "fabric-rendering-v1": "*"
+          }
+        },
+        {
+          "id": "fabric-rendering-data-attachment-v1",
+          "version": "0.3.49+73761d2e19",
+          "provides": [],
+          "depends": {
+            "fabricloader": ">=0.15.11",
+            "fabric-block-view-api-v2": "*"
+          }
+        },
+        {
+          "id": "fabric-rendering-v0",
+          "version": "1.1.74+df3654b319",
+          "provides": [],
+          "depends": {
+            "fabricloader": ">=0.15.11",
+            "minecraft": ">=1.15-alpha.19.39.a",
+            "fabric-api-base": "*",
+            "fabric-rendering-v1": "*"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ferritecore",
+      "version": "7.0.3",
+      "path": "mods/ferritecore-7.0.3-fabric.jar",
+      "size": 123450,
+      "sha256": "98c3ab1d5aab8f14b5d082d3f1a467727fd335f02d124555c94339761c4c18f2",
+      "md5": "b8513c8c3eef01ea1117ed8d8cba060d",
+      "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/sOzRw3CG/ferritecore-7.0.3-fabric.jar",
+      "releaseRequired": false,
+      "environment": "*",
+      "serverSide": "optional",
+      "clientSide": "optional",
+      "license": {
+        "id": "MIT",
+        "name": "MIT License",
+        "url": null
+      },
+      "depends": {
+        "fabricloader": ">=0.14.21",
+        "minecraft": ">=1.21.1 <1.22"
+      },
+      "provides": [],
+      "nested": []
+    },
+    {
+      "id": "geckolib",
+      "version": "4.8.3",
+      "path": "mods/geckolib-fabric-1.21.1-4.8.3.jar",
+      "size": 653263,
+      "sha256": "8787e90e26f68dc9101685c010b3d65a92dbca6c6f5c533c7e4650d2ec1f721a",
+      "md5": "a25183297019c4cb999faa74fbba649e",
+      "url": "https://cdn.modrinth.com/data/8BmcQJ2H/versions/fvT8GY10/geckolib-fabric-1.21.1-4.8.3.jar",
+      "releaseRequired": false,
+      "environment": "*",
+      "serverSide": "optional",
+      "clientSide": "required",
+      "license": {
+        "id": "MIT",
+        "name": "MIT License",
+        "url": null
+      },
+      "depends": {
+        "fabricloader": ">=0.17",
+        "fabric-api": ">=0.100.0+1.21",
+        "java": ">=17",
+        "minecraft": ">=1.21.1"
+      },
+      "provides": [],
+      "nested": []
+    },
+    {
+      "id": "highlight",
+      "version": "3.0.0",
+      "path": "mods/highlight-fabric-1.21-3.0.0.jar",
+      "size": 457352,
+      "sha256": "08932afc913f74e9676b9a59a87bdf817d959cf6d861a9269897778240f11df2",
+      "md5": "234ee14bc223ae7594b41e16c7357518",
+      "url": "https://cdn.modrinth.com/data/Vz96hXMh/versions/O0nda3pt/highlight-fabric-1.21-3.0.0.jar",
+      "releaseRequired": false,
+      "environment": "*",
+      "serverSide": "unsupported",
+      "clientSide": "required",
+      "license": {
+        "id": "MIT",
+        "name": "MIT License",
+        "url": null
+      },
+      "depends": {
+        "fabricloader": ">=0.15.9",
+        "minecraft": ">=1.20.5",
+        "resourcefullib": "*"
+      },
+      "provides": [],
+      "nested": [
+        {
+          "id": "resourcefullib",
+          "version": "3.0.1",
+          "provides": [],
+          "depends": {
+            "fabric": "*",
+            "minecraft": ">=1.20.5"
+          }
+        }
+      ]
+    },
+    {
+      "id": "immediatelyfast",
+      "version": "1.6.14+1.21.1",
+      "path": "mods/ImmediatelyFast-Fabric-1.6.14+1.21.1.jar",
+      "size": 340166,
+      "sha256": "b35d2f212eca85102a74830f901d5e5b60b6dc3d0f803a06074517a15ed7520f",
+      "md5": "16c56c742d42f5e78a6fbef9d61c56e8",
+      "url": "https://cdn.modrinth.com/data/5ZwdcRci/versions/7XKnsIC8/ImmediatelyFast-Fabric-1.6.14%2B1.21.1.jar",
+      "releaseRequired": false,
+      "environment": "client",
+      "serverSide": "unsupported",
+      "clientSide": "required",
+      "license": {
+        "id": "LGPL-3.0-or-later",
+        "name": "GNU Lesser General Public License v3.0 or later",
+        "url": null
+      },
+      "depends": {
+        "java": ">=21",
+        "minecraft": ">=1.21 <=1.21.1",
+        "fabricloader": ">=0.16.0"
+      },
+      "provides": [],
+      "nested": [
+        {
+          "id": "net_lenni0451_reflect",
+          "version": "1.6.2",
+          "provides": [],
+          "depends": {}
+        }
+      ]
+    },
+    {
+      "id": "immersive-hotbar",
+      "version": "1.2.2-1.21-1.21.1",
+      "path": "mods/immersive-hotbar-1.2.2-1.21-1.21.1.jar",
+      "size": 124688,
+      "sha256": "d76aa3215ad06c8bbda8a011e482dd7a57ba5c7a0a0f8a1995ec41e39cf53efa",
+      "md5": "6176efb7acd0d59265e76d5c77ae77b8",
+      "url": "https://cdn.modrinth.com/data/hsPB5xMD/versions/6GuPFBfw/immersive-hotbar-1.2.2-1.21-1.21.1.jar",
+      "releaseRequired": false,
+      "environment": "client",
+      "serverSide": "unsupported",
+      "clientSide": "required",
+      "license": {
+        "id": "MIT",
+        "name": "MIT License",
+        "url": null
+      },
+      "depends": {
+        "fabricloader": ">=0.16.10",
+        "minecraft": ">=1.21 <=1.21.1",
+        "java": ">=21",
+        "fabric-api": "*",
+        "yet_another_config_lib_v3": ">=3.6.2"
+      },
+      "provides": [],
+      "nested": []
+    },
+    {
+      "id": "immersiveui",
+      "version": "0.3.3",
+      "path": "mods/ImmersiveUI-FABRIC-0.3.3+1.21.1.jar",
+      "size": 211187,
+      "sha256": "2d6c41126529f45e968813e50ea9a61a6b47c2976a7cd754fb5f5e400afcd582",
+      "md5": "2d340c02a1474dd80c80331eed11488e",
+      "url": "https://cdn.modrinth.com/data/9wv7LuMc/versions/1Qx4v8mx/ImmersiveUI-FABRIC-0.3.3%2B1.21.1.jar",
+      "releaseRequired": false,
+      "environment": "client",
+      "serverSide": "unsupported",
+      "clientSide": "required",
+      "license": {
+        "id": "LicenseRef-All-Rights-Reserved",
+        "name": "",
+        "url": null
+      },
+      "depends": {
+        "minecraft": "~1.21",
+        "java": ">=21",
+        "octolib": ">=0.6.0.3",
+        "fabric-api": "*"
+      },
+      "provides": [],
+      "nested": []
+    },
+    {
+      "id": "lambdynlights",
+      "version": "4.8.11+1.21.1",
+      "path": "mods/lambdynamiclights-4.8.11+1.21.1.jar",
+      "size": 2023375,
+      "sha256": "913b0358b1031828f1e060ea0ee361232dc2a1c82464f488a0a920739ce7c763",
+      "md5": "fc7e8b48d98bc94025ea70c1ed441b2f",
+      "url": "https://cdn.modrinth.com/data/yBW8D80W/versions/ksaGCvSu/lambdynamiclights-4.8.11%2B1.21.1.jar",
+      "releaseRequired": false,
+      "environment": "client",
+      "serverSide": "unsupported",
+      "clientSide": "required",
+      "license": {
+        "id": "LicenseRef-Lambda-License",
+        "name": "",
+        "url": "https://github.com/LambdAurora/LambDynamicLights/blob/1.21.5/LICENSE"
+      },
+      "depends": {
+        "lambdynlights_runtime": ">=4.8.11+1.21.1"
+      },
+      "provides": [],
+      "nested": [
+        {
+          "id": "lambdynlights_runtime",
+          "version": "4.8.11+1.21.1",
+          "provides": [],
+          "depends": {
+            "fabricloader": ">=0.18.4",
+            "minecraft": "~1.21 <1.21.2-",
+            "java": ">=21",
+            "lambdynlights_api": ">=4.8.11+1.21.1",
+            "spruceui": ">=6.2.5+1.21.1",
+            "yumi_mc_core": ">=1.0.0-beta.1+1.21.1",
+            "fabric-lifecycle-events-v1": ">=2.3.12+6c1df36019",
+            "fabric-resource-loader-v0": ">=1.3.0+5659912919",
+            "fabric-resource-conditions-api-v1": ">=4.3.0+8dc279b119"
+          }
+        }
+      ]
+    },
+    {
+      "id": "languagereload",
+      "version": "1.7.6+1.21.1",
+      "path": "mods/language-reload-1.7.6+1.21.1.jar",
+      "size": 75091,
+      "sha256": "6431706e6243897c8b2aa8f4de7180037ee86110a865a5d48ee1a292d604a6af",
+      "md5": "d131649f0705f23d3653f4e7a0feac2f",
+      "url": "https://cdn.modrinth.com/data/uLbm7CG6/versions/lLMGPiZe/language-reload-1.7.6%2B1.21.1.jar",
+      "releaseRequired": false,
+      "environment": "client",
+      "serverSide": "unsupported",
+      "clientSide": "required",
+      "license": {
+        "id": "MIT",
+        "name": "MIT License",
+        "url": null
+      },
+      "depends": {
+        "fabric-resource-loader-v0": "*",
+        "fabricloader": ">=0.15.10",
+        "minecraft": ">=1.21 <1.21.2"
+      },
+      "provides": [],
+      "nested": []
+    },
+    {
+      "id": "lithium",
+      "version": "0.15.4+mc1.21.1",
+      "path": "mods/lithium-fabric-0.15.4+mc1.21.1.jar",
+      "size": 797454,
+      "sha256": "92329d98c57f5a22091a0adb509fdb1d60113a5602c708b799b13134bad13baa",
+      "md5": "6fd6783640f42130f041b50cca2d3be6",
+      "url": "https://cdn.modrinth.com/data/gvQqBUqZ/versions/N08Z8wog/lithium-fabric-0.15.4%2Bmc1.21.1.jar",
+      "releaseRequired": false,
+      "environment": "*",
+      "serverSide": "optional",
+      "clientSide": "optional",
+      "license": {
+        "id": "LGPL-3.0-only",
+        "name": "GNU Lesser General Public License v3.0 only",
+        "url": null
+      },
+      "depends": {
+        "fabricloader": ">=0.15.1",
+        "minecraft": [
+          "1.21",
+          "1.21.1"
+        ]
+      },
+      "provides": [],
+      "nested": []
+    },
+    {
+      "id": "mcd_d_nether",
+      "version": "1.3.3",
+      "path": "mods/mcd_d_nether-fabric-1.21.1-1.3.3.jar",
+      "size": 1218993,
+      "sha256": "f0ab40bf0fc7b0707ec429fd1fb000925490c18c7c42c15426d84ddd07c119f0",
+      "md5": "0d8d55f97af7ba917b7887aefc02f6e9",
+      "url": "https://cdn.modrinth.com/data/sf8l9B73/versions/1U0EU8il/mcd_d_nether-fabric-1.21.1-1.3.3.jar",
+      "releaseRequired": false,
+      "environment": "*",
+      "serverSide": "required",
+      "clientSide": "required",
+      "license": {
+        "id": "CC-BY-NC-SA-4.0",
+        "name": "Creative Commons Attribution Non Commercial Share Alike 4.0 International",
+        "url": null
+      },
+      "depends": {
+        "fabricloader": ">=0.19.2",
+        "fabric-api": "*",
+        "minecraft": "~1.21.1",
+        "java": ">=21"
+      },
+      "provides": [],
+      "nested": []
+    },
+    {
+      "id": "modelfix",
+      "version": "1.21-1.6",
+      "path": "mods/modelfix-1.21-1.6-fabric.jar",
+      "size": 62761,
+      "sha256": "53a0701f3583e2b794825858d2e4b7613df8b2dd22c277544c4b55f4bd08537a",
+      "md5": "7bbde6d3602d01d925df77c79e6ae477",
+      "url": "https://cdn.modrinth.com/data/QdG47OkI/versions/FUZo6yCk/modelfix-1.21-1.6-fabric.jar",
+      "releaseRequired": false,
+      "environment": "client",
+      "serverSide": "unsupported",
+      "clientSide": "required",
+      "license": {
+        "id": "GPL-3.0-only",
+        "name": "GNU General Public License v3.0 only",
+        "url": null
+      },
+      "depends": {
+        "fabric": "*",
+        "minecraft": ">=1.21 <1.22"
+      },
+      "provides": [],
+      "nested": []
+    },
+    {
+      "id": "modernfix",
+      "version": "5.25.1+mc1.21.1",
+      "path": "mods/modernfix-fabric-5.25.1+mc1.21.1.jar",
+      "size": 471258,
+      "sha256": "3ce5a9ce75066961b7fa5382692bb1387cc3536cc984b064ab7d70b97f3c674c",
+      "md5": "17260c894041b7b4a1b1f2fd1a8f1a8b",
+      "url": "https://cdn.modrinth.com/data/nmDcB62a/versions/NnNX8LBn/modernfix-fabric-5.25.1%2Bmc1.21.1.jar",
+      "releaseRequired": false,
+      "environment": "*",
+      "serverSide": "optional",
+      "clientSide": "optional",
+      "license": {
+        "id": "LGPL-3.0-only",
+        "name": "GNU Lesser General Public License v3.0 only",
+        "url": null
+      },
+      "depends": {
+        "minecraft": ">=1.16.2",
+        "fabricloader": ">=0.16.10"
+      },
+      "provides": [],
+      "nested": []
+    },
+    {
+      "id": "modmenu",
+      "version": "11.0.5",
+      "path": "mods/modmenu-11.0.5.jar",
+      "size": 975846,
+      "sha256": "afa55fe4e7c48560126dbe654fa9647f141bc6ffd3ce35525b65dd65d88251b5",
+      "md5": "52ed39a3015ef3e6b02915d87a8aabae",
+      "url": "https://cdn.modrinth.com/data/mOgUt4GM/versions/6lgOkclV/modmenu-11.0.5.jar",
+      "releaseRequired": false,
+      "environment": "client",
+      "serverSide": "unsupported",
+      "clientSide": "required",
+      "license": {
+        "id": "MIT",
+        "name": "MIT License",
+        "url": null
+      },
+      "depends": {
+        "fabric-resource-loader-v0": "*",
+        "fabric-screen-api-v1": ">=1.0.4",
+        "fabric-key-binding-api-v1": "*",
+        "fabric-lifecycle-events-v1": "*",
+        "fabricloader": ">=0.15.10",
+        "minecraft": ">=1.21-beta.2"
+      },
+      "provides": [],
+      "nested": [
+        {
+          "id": "fabric-api-base",
+          "version": "0.4.42+6573ed8c90",
+          "provides": [],
+          "depends": {
+            "fabricloader": ">=0.15.11"
+          }
+        },
+        {
+          "id": "fabric-resource-loader-v0",
+          "version": "1.1.3+b559734490",
+          "provides": [],
+          "depends": {
+            "fabricloader": ">=0.15.11"
+          }
+        },
+        {
+          "id": "fabric-screen-api-v1",
+          "version": "2.0.24+b559734490",
+          "provides": [],
+          "depends": {
+            "fabricloader": ">=0.15.11",
+            "fabric-api-base": "*"
+          }
+        },
+        {
+          "id": "fabric-key-binding-api-v1",
+          "version": "1.0.47+0af3f5a790",
+          "provides": [],
+          "depends": {
+            "fabricloader": ">=0.15.11"
+          }
+        },
+        {
+          "id": "fabric-lifecycle-events-v1",
+          "version": "2.3.9+98a7dbbb90",
+          "provides": [],
+          "depends": {
+            "fabricloader": ">=0.15.11",
+            "fabric-api-base": "*"
+          }
+        },
+        {
+          "id": "placeholder-api",
+          "version": "2.4.0-pre.2+1.21",
+          "provides": [],
+          "depends": {
+            "fabricloader": ">=0.13.4",
+            "minecraft": ">=1.19-beta.1"
+          }
+        }
+      ]
+    },
+    {
+      "id": "octolib",
+      "version": "0.6.2",
+      "path": "mods/OctoLib-FABRIC-0.6.2+1.21.jar",
+      "size": 543254,
+      "sha256": "73dc2af050c46a1501421593296570ec6dcb3824927fbff9c44ac032e5548da5",
+      "md5": "f5d73dfd455d1376d301ce61b2052206",
+      "url": "https://cdn.modrinth.com/data/RH2KUdKJ/versions/Sj6w7O0I/OctoLib-FABRIC-0.6.2%2B1.21.jar",
+      "releaseRequired": false,
+      "environment": "*",
+      "serverSide": "required",
+      "clientSide": "required",
+      "license": {
+        "id": "LicenseRef-All-Rights-Reserved",
+        "name": "",
+        "url": null
+      },
+      "depends": {
+        "minecraft": "~1.21",
+        "java": ">=21",
+        "architectury": ">=13.0.2",
+        "fabric-api": "*"
+      },
+      "provides": [],
+      "nested": [
+        {
+          "id": "org_yaml_snakeyaml",
+          "version": "2.2",
+          "provides": [],
+          "depends": {}
+        }
+      ]
+    },
+    {
+      "id": "owo",
+      "version": "0.13.0-alpha.15+1.21",
+      "path": "mods/owo-lib-0.13.0-alpha.15+1.21.jar",
+      "size": 1963544,
+      "sha256": "bf14fd85d3d360e5c1f8e4e2294a8b2ee5c0baf7f3788160473b6d217ef3816f",
+      "md5": "a3eb2ecafeb4bc1fb453b13cb43a12c1",
+      "url": "https://cdn.modrinth.com/data/ccKDOlHs/versions/m3XmDd8j/owo-lib-0.13.0-alpha.15%2B1.21.jar",
+      "releaseRequired": false,
+      "environment": "*",
+      "serverSide": "required",
+      "clientSide": "required",
+      "license": {
+        "id": "MIT",
+        "name": "MIT License",
+        "url": null
+      },
+      "depends": {
+        "fabricloader": ">=0.15.0",
+        "fabric-api": ">=0.100",
+        "minecraft": ">=1.21"
+      },
+      "provides": [
+        "owo-impl",
+        "owo-lib"
+      ],
+      "nested": [
+        {
+          "id": "io_wispforest_endec",
+          "version": "0.1.5.1",
+          "provides": [],
+          "depends": {}
+        },
+        {
+          "id": "io_wispforest_endec_gson",
+          "version": "0.1.3.1",
+          "provides": [],
+          "depends": {}
+        },
+        {
+          "id": "io_wispforest_endec_jankson",
+          "version": "0.1.3.1",
+          "provides": [],
+          "depends": {}
+        },
+        {
+          "id": "blue_endless_jankson",
+          "version": "1.2.2",
+          "provides": [],
+          "depends": {}
+        },
+        {
+          "id": "io_wispforest_endec_netty",
+          "version": "0.1.2",
+          "provides": [],
+          "depends": {}
+        }
+      ]
+    },
+    {
+      "id": "placeholder-api",
+      "version": "2.4.2+1.21",
+      "path": "mods/placeholder-api-2.4.2+1.21.jar",
+      "size": 232325,
+      "sha256": "c0187ee299527ac7a3e0b1e83601dcdc0de631e286fe41e6be1a75958ea8e443",
+      "md5": "4de8568a088a276c94168514d625413d",
+      "url": "https://cdn.modrinth.com/data/eXts2L7r/versions/U5bhVym2/placeholder-api-2.4.2%2B1.21.jar",
+      "releaseRequired": false,
+      "environment": "*",
+      "serverSide": "optional",
+      "clientSide": "optional",
+      "license": {
+        "id": "LGPL-3.0-only",
+        "name": "GNU Lesser General Public License v3.0 only",
+        "url": null
+      },
+      "depends": {
+        "fabricloader": ">=0.15.0",
+        "minecraft": ">=1.21-"
+      },
+      "provides": [],
+      "nested": []
+    },
+    {
+      "id": "plasmovoice",
+      "version": "2.2.0-beta.1",
+      "path": "mods/plasmovoice-fabric-1.21.1-2.2.0-beta.1.jar",
+      "size": 12883693,
+      "sha256": "8ccc789214e0fb64376a96010769b076b399cb81c85b48c67b6f74bca3e76e53",
+      "md5": "28cf78ae4d035bfe0fae5e7125aee9ee",
+      "url": "https://cdn.modrinth.com/data/1bZhdhsH/versions/PazZCeGK/plasmovoice-fabric-1.21.1-2.2.0-beta.1.jar",
+      "releaseRequired": false,
+      "environment": "*",
+      "serverSide": "required",
+      "clientSide": "required",
+      "license": {
+        "id": "LGPL-3.0-only",
+        "name": "GNU Lesser General Public License v3.0 only",
+        "url": null
+      },
+      "depends": {
+        "fabric": "*",
+        "fabricloader": "*",
+        "minecraft": ">=1.21.0 <=1.21.1"
+      },
+      "provides": [],
+      "nested": [
+        {
+          "id": "fabric-permissions-api-v0",
+          "version": "0.3.1",
+          "provides": [],
+          "depends": {
+            "fabricloader": ">=0.9.0",
+            "fabric-api-base": "*"
+          }
+        }
+      ]
+    },
+    {
+      "id": "platform",
+      "version": "1.3.3",
+      "path": "mods/Platform-fabric-1.21.1-1.3.3.jar",
+      "size": 735744,
+      "sha256": "52f49993d4440d266fa3a077090e8091983cd1bda5942f176ae75f3e9e350779",
+      "md5": "c5023c794d97255c94493ad53780dcdb",
+      "url": "https://cdn.modrinth.com/data/i6fiqm5y/versions/BbIdNbF1/Platform-fabric-1.21.1-1.3.3.jar",
+      "releaseRequired": false,
+      "environment": "*",
+      "serverSide": "optional",
+      "clientSide": "optional",
+      "license": {
+        "id": "LGPL-3.0-only",
+        "name": "GNU Lesser General Public License v3.0 only",
+        "url": "https://github.com/ItsBlackGear/Platform/blob/main/LICENSE.md"
+      },
+      "depends": {
+        "fabricloader": ">=0.16.12",
+        "minecraft": "~1.21.1",
+        "java": ">=21",
+        "fabric-api": "*"
+      },
+      "provides": [],
+      "nested": []
+    },
+    {
+      "id": "raised",
+      "version": "6.0.2",
+      "path": "mods/raised-fabric-1.21.1-6.0.2.jar",
+      "size": 136748,
+      "sha256": "7cf4c5254ab93175d0b3bb926899c08578391a8622544290b2c2b58a0079c346",
+      "md5": "fe2e0e33cdb8ecd9a57c5f756144cbac",
+      "url": "https://cdn.modrinth.com/data/nCQRBEiR/versions/bje4Szz5/raised-fabric-1.21.1-6.0.2.jar",
+      "releaseRequired": false,
+      "environment": "client",
+      "serverSide": "unsupported",
+      "clientSide": "required",
+      "license": {
+        "id": "LGPL-3.0-or-later",
+        "name": "GNU Lesser General Public License v3.0 or later",
+        "url": null
+      },
+      "depends": {
+        "fabricloader": ">=0.15.10",
+        "minecraft": ">=1.21- <1.21.2",
+        "java": ">=21"
+      },
+      "provides": [],
+      "nested": []
+    },
+    {
+      "id": "ruby-notices",
+      "version": "1.1.0",
+      "path": "mods/ruby-notices-1.1.0.jar",
+      "size": 528871,
+      "sha256": "9e4e46f8445cc5899ed1c30e05ba09ab1198b53081d6ad4e0102d2411aa97bdc",
+      "md5": "033fe5b95ed72cc8a6aedd78ed4fc4f9",
+      "url": null,
+      "releaseRequired": true,
+      "environment": "*",
+      "serverSide": "required",
+      "clientSide": "required",
+      "license": "CC0-1.0",
+      "depends": {
+        "fabricloader": ">=0.19.5",
+        "minecraft": "~1.21.1",
+        "java": ">=21",
+        "fabric-api": "*",
+        "owo": ">=0.12.15.4"
+      },
+      "provides": [],
+      "nested": []
+    },
+    {
+      "id": "ruby_wither",
+      "version": "0.1.6",
+      "path": "mods/ruby-wither-prototype-0.1.6.jar",
+      "size": 1017908,
+      "sha256": "f93cc7ce4c6d1dbfa9c2debdc028e7a8f0a30cd8e8c3b90d93ce04e35b376395",
+      "md5": "7688232d4276d51b0fa740e2488e17f0",
+      "url": null,
+      "releaseRequired": true,
+      "environment": "*",
+      "serverSide": "required",
+      "clientSide": "required",
+      "license": "UNSPECIFIED",
+      "depends": {
+        "fabricloader": ">=0.16.0",
+        "minecraft": "1.21.1",
+        "java": ">=21",
+        "fabric-api": "*",
+        "geckolib": ">=4.8.3 <5"
+      },
+      "provides": [],
+      "nested": []
+    },
+    {
+      "id": "shine",
+      "version": "1.0.0+1.21.1",
+      "path": "mods/shine-1.0.0+1.21.1.jar",
+      "size": 138107,
+      "sha256": "221d6cf4428da046e1dfc652db68cf249ff19bc599a7aaffcadb21056f79b564",
+      "md5": "b6c59150fc8b381d2d764c7763a64b9f",
+      "url": "https://cdn.modrinth.com/data/uQgWIE6A/versions/S3s0aITt/shine-1.0.0%2B1.21.1.jar",
+      "releaseRequired": false,
+      "environment": "*",
+      "serverSide": "unsupported",
+      "clientSide": "required",
+      "license": {
+        "id": "LicenseRef-All-Rights-Reserved",
+        "name": "",
+        "url": null
+      },
+      "depends": {
+        "fabricloader": ">=0.18.4",
+        "minecraft": "~1.21.1",
+        "java": ">=21",
+        "fabric-api": ">=0.116.9+1.21.1",
+        "yet_another_config_lib_v3": ">=3.8.2+1.21.1-fabric"
+      },
+      "provides": [],
+      "nested": []
+    },
+    {
+      "id": "sodium",
+      "version": "0.6.13+mc1.21.1",
+      "path": "mods/sodium-fabric-0.6.13+mc1.21.1.jar",
+      "size": 1297761,
+      "sha256": "e04599514d88e41765f710eeba59e3814909833396bc11b977f48fc2e7e50353",
+      "md5": "aa37ba0048a1af6b554b137088cad484",
+      "url": "https://cdn.modrinth.com/data/AANobbMI/versions/u1OEbNKx/sodium-fabric-0.6.13%2Bmc1.21.1.jar",
+      "releaseRequired": false,
+      "environment": "client",
+      "serverSide": "unsupported",
+      "clientSide": "required",
+      "license": {
+        "id": "LicenseRef-Polyform-Shield-1.0.0",
+        "name": "",
+        "url": "https://github.com/CaffeineMC/sodium/blob/dev/LICENSE.md"
+      },
+      "depends": {
+        "minecraft": [
+          "1.21",
+          "1.21.1"
+        ],
+        "fabricloader": ">=0.16.0",
+        "fabric-block-view-api-v2": "*",
+        "fabric-renderer-api-v1": "*",
+        "fabric-rendering-data-attachment-v1": "*",
+        "fabric-rendering-fluids-v1": ">=2.0.0",
+        "fabric-resource-loader-v0": "*"
+      },
+      "provides": [
+        "indium"
+      ],
+      "nested": [
+        {
+          "id": "fabric-resource-loader-v0",
+          "version": "1.3.1+5b5275af19",
+          "provides": [],
+          "depends": {
+            "fabricloader": ">=0.15.11"
+          }
+        },
+        {
+          "id": "fabric-block-view-api-v2",
+          "version": "1.0.10+6573ed8c19",
+          "provides": [],
+          "depends": {
+            "fabricloader": ">=0.15.11"
+          }
+        },
+        {
+          "id": "fabric-rendering-data-attachment-v1",
+          "version": "0.3.48+73761d2e19",
+          "provides": [],
+          "depends": {
+            "fabricloader": ">=0.15.11",
+            "fabric-block-view-api-v2": "*"
+          }
+        },
+        {
+          "id": "fabric-rendering-fluids-v1",
+          "version": "3.1.6+1daea21519",
+          "provides": [],
+          "depends": {
+            "fabricloader": ">=0.15.11",
+            "fabric-api-base": "*"
+          }
+        },
+        {
+          "id": "fabric-renderer-api-v1",
+          "version": "3.4.0+c705a49c19",
+          "provides": [],
+          "depends": {
+            "fabricloader": ">=0.15.11",
+            "minecraft": ">=1.15-alpha.19.39.a",
+            "fabric-api-base": "*"
+          }
+        },
+        {
+          "id": "fabric-api-base",
+          "version": "0.4.42+6573ed8c19",
+          "provides": [],
+          "depends": {
+            "fabricloader": ">=0.15.11"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tiny_takeover_backport",
+      "version": "1.6.0",
+      "path": "mods/tiny_takeover_backport-fabric-1.21.1-1.6.0.jar",
+      "size": 2157050,
+      "sha256": "2b021b4eb3cf7a35e9419b6cbd26c75e55ef270a1d4d9e7a94acabeb85c9432b",
+      "md5": "665fdee3212c6744968e22f92ecb7ede",
+      "url": "https://cdn.modrinth.com/data/F4TmfqsY/versions/Nk3Yx2Tj/tiny_takeover_backport-fabric-1.21.1-1.6.0.jar",
+      "releaseRequired": false,
+      "environment": "*",
+      "serverSide": "required",
+      "clientSide": "required",
+      "license": {
+        "id": "MIT",
+        "name": "MIT License",
+        "url": null
+      },
+      "depends": {
+        "fabricloader": ">=0.14",
+        "fabric": "*",
+        "minecraft": "1.21.1",
+        "java": ">=21",
+        "yet_another_config_lib_v3": ">=3.8.2+1.21.1"
+      },
+      "provides": [],
+      "nested": [
+        {
+          "id": "org_quiltmc_parsers_gson",
+          "version": "0.3.0",
+          "provides": [],
+          "depends": {}
+        },
+        {
+          "id": "org_quiltmc_parsers_json",
+          "version": "0.3.0",
+          "provides": [],
+          "depends": {}
+        }
+      ]
+    },
+    {
+      "id": "trashslot",
+      "version": "21.1.11",
+      "path": "mods/trashslot-fabric-1.21.1-21.1.11.jar",
+      "size": 78842,
+      "sha256": "28b1ed22a2968e9d1b2760ef8dfeb2a95ab89036d13968182f4d8c326e3763fd",
+      "md5": "e445acb83acd77c49f44a2810e0038d4",
+      "url": "https://cdn.modrinth.com/data/vRYk0bv7/versions/apJG54CW/trashslot-fabric-1.21.1-21.1.11.jar",
+      "releaseRequired": false,
+      "environment": "*",
+      "serverSide": "required",
+      "clientSide": "required",
+      "license": {
+        "id": "LicenseRef-All-Rights-Reserved",
+        "name": "",
+        "url": "https://mods.twelveiterations.com/permissions"
+      },
+      "depends": {
+        "fabricloader": ">=0.15.11",
+        "fabric-api": "*",
+        "balm-fabric": "*",
+        "minecraft": ">=1.21",
+        "java": ">=21"
+      },
+      "provides": [],
+      "nested": []
+    },
+    {
+      "id": "vanillabackport",
+      "version": "1.1.7.10",
+      "path": "mods/VanillaBackport-fabric-1.21.1-1.1.7.10.jar",
+      "size": 54994072,
+      "sha256": "6aba8f56fd71b9b5b724812b22f14d11a71e9ca0bf7e84b52b4c8b91736e0734",
+      "md5": "45d17963d8b43aa00251e422861b86e3",
+      "url": "https://cdn.modrinth.com/data/6xwxDTgf/versions/ayvoY8lx/VanillaBackport-fabric-1.21.1-1.1.7.10.jar",
+      "releaseRequired": false,
+      "environment": "*",
+      "serverSide": "required",
+      "clientSide": "required",
+      "license": {
+        "id": "LicenseRef-VBL",
+        "name": "",
+        "url": "https://github.com/ItsBlackGear/VanillaBackport/blob/1.20.1/LICENSE.txt"
+      },
+      "depends": {
+        "fabricloader": ">=0.16.12",
+        "platform": ">=1.3.3",
+        "minecraft": "~1.21.1",
+        "java": ">=21",
+        "fabric-api": "*"
+      },
+      "provides": [],
+      "nested": [
+        {
+          "id": "mixinsquared",
+          "version": "0.1.1",
+          "provides": [],
+          "depends": {
+            "fabricloader": ">=0.14.11"
+          }
+        }
+      ]
+    },
+    {
+      "id": "visuality",
+      "version": "0.7.7+1.21",
+      "path": "mods/visuality-0.7.7+1.21.jar",
+      "size": 79452,
+      "sha256": "c10fe78103b659259161330be2f6f2123dedf5f2f00cd243225a88d5ffa8c372",
+      "md5": "f6afa7bac94101addeb4b2ee34eb828f",
+      "url": "https://cdn.modrinth.com/data/rI0hvYcd/versions/dhKbgdIb/visuality-0.7.7%2B1.21.jar",
+      "releaseRequired": false,
+      "environment": "client",
+      "serverSide": "unsupported",
+      "clientSide": "required",
+      "license": {
+        "id": "MIT",
+        "name": "MIT License",
+        "url": null
+      },
+      "depends": {
+        "fabricloader": "*",
+        "fabric-api": "*",
+        "cloth-config": "*",
+        "minecraft": ">=1.21 <1.22",
+        "java": ">=21"
+      },
+      "provides": [],
+      "nested": []
+    },
+    {
+      "id": "lss",
+      "version": "0.16.0",
+      "path": "mods/voxy-server-side-fabric.jar",
+      "size": 8766377,
+      "sha256": "157e13a23adc991eba22401f4268496f9192089eab9ac841402d3bfb94d338da",
+      "md5": "152ab6183393b4495a824b1e5c4f19fd",
+      "url": "https://cdn.modrinth.com/data/84zcagOb/versions/UlXzWw4S/voxy-server-side-fabric.jar",
+      "releaseRequired": false,
+      "environment": "*",
+      "serverSide": "required",
+      "clientSide": "required",
+      "license": {
+        "id": "MIT",
+        "name": "MIT License",
+        "url": "https://github.com/VoX/lod-server-support?tab=MIT-1-ov-file"
+      },
+      "depends": {
+        "minecraft": "1.21.1",
+        "fabricloader": ">=0.18.4",
+        "fabric-api": ">=0.100.0"
+      },
+      "provides": [],
+      "nested": [
+        {
+          "id": "lss-zstd-jni",
+          "version": "1.5.7-3",
+          "provides": [],
+          "depends": {}
+        },
+        {
+          "id": "dev_vox_common",
+          "version": "0.16.0",
+          "provides": [],
+          "depends": {}
+        }
+      ]
+    },
+    {
+      "id": "xaeroworldmap",
+      "version": "1.47.0",
+      "path": "mods/xaeroworldmap-fabric-1.21.1-1.47.0.jar",
+      "size": 1456162,
+      "sha256": "3e8211e02681f8bc17e1a066b3fcffddfa969cff03f48a5400016f587ba5f8f2",
+      "md5": "eeee9b64152f38396ff52b6dbcc0f38f",
+      "url": "https://cdn.modrinth.com/data/NcUtCpym/versions/XIR7GzC3/xaeroworldmap-fabric-1.21.1-1.47.0.jar",
+      "releaseRequired": false,
+      "environment": "*",
+      "serverSide": "optional",
+      "clientSide": "required",
+      "license": {
+        "id": "LicenseRef-All-Rights-Reserved",
+        "name": "",
+        "url": null
+      },
+      "depends": {
+        "fabricloader": ">=0.13.0",
+        "fabric-api": ">=0.43.1",
+        "minecraft": ">1.20.6 <1.21.2",
+        "xaerolib": ">=1.0"
+      },
+      "provides": [],
+      "nested": [
+        {
+          "id": "xaerolib",
+          "version": "1.7.3",
+          "provides": [],
+          "depends": {
+            "fabricloader": ">=0.13.0",
+            "fabric-api": ">=0.43.1",
+            "minecraft": ">=1.21 <=1.21.1"
+          }
+        }
+      ]
+    },
+    {
+      "id": "yet_another_config_lib_v3",
+      "version": "3.8.2+1.21.1-fabric",
+      "path": "mods/yet_another_config_lib_v3-3.8.2+1.21.1-fabric.jar",
+      "size": 1131265,
+      "sha256": "6ab420b7d1326fc9851b96a8967504bd644da421ed6438ceb9a9d9c993a408b1",
+      "md5": "aadf11f5a793296be7c195e1ca388492",
+      "url": "https://cdn.modrinth.com/data/1eAoo2KR/versions/o3cDn8Vp/yet_another_config_lib_v3-3.8.2%2B1.21.1-fabric.jar",
+      "releaseRequired": false,
+      "environment": "*",
+      "serverSide": "optional",
+      "clientSide": "optional",
+      "license": {
+        "id": "LGPL-3.0-or-later",
+        "name": "GNU Lesser General Public License v3.0 or later",
+        "url": null
+      },
+      "depends": {
+        "fabricloader": ">=0.17.0",
+        "minecraft": "~1.21 <1.21.2",
+        "java": ">=17",
+        "fabric-api": ">=0.104.0+1.21.1"
+      },
+      "provides": [],
+      "nested": [
+        {
+          "id": "com_twelvemonkeys_common_common-image",
+          "version": "3.12.0",
+          "provides": [],
+          "depends": {}
+        },
+        {
+          "id": "com_twelvemonkeys_common_common-io",
+          "version": "3.12.0",
+          "provides": [],
+          "depends": {}
+        },
+        {
+          "id": "com_twelvemonkeys_common_common-lang",
+          "version": "3.12.0",
+          "provides": [],
+          "depends": {}
+        },
+        {
+          "id": "org_quiltmc_parsers_gson",
+          "version": "0.2.1",
+          "provides": [],
+          "depends": {}
+        },
+        {
+          "id": "com_twelvemonkeys_imageio_imageio-core",
+          "version": "3.12.0",
+          "provides": [],
+          "depends": {}
+        },
+        {
+          "id": "com_twelvemonkeys_imageio_imageio-metadata",
+          "version": "3.12.0",
+          "provides": [],
+          "depends": {}
+        },
+        {
+          "id": "com_twelvemonkeys_imageio_imageio-webp",
+          "version": "3.12.0",
+          "provides": [],
+          "depends": {}
+        },
+        {
+          "id": "org_quiltmc_parsers_json",
+          "version": "0.2.1",
+          "provides": [],
+          "depends": {}
+        }
+      ]
+    }
+  ],
+  "configs": [
+    {
+      "path": "config/fabric/indigo-renderer.properties",
+      "size": 290,
+      "sha256": "5be89716b8173bc363759b99dcabcb0a7ef78c30e2c223d8a8f6ff629a081973",
+      "md5": "9812234dc572d9785bc2731481b40e4f",
+      "text": "#Indigo properties file\r\n#Thu Oct 15 17:40:53 PET 2026\r\nalways-tesselate-blocks=auto\r\nambient-occlusion-mode=hybrid\r\ndebug-compare-lighting=auto\r\nfix-exterior-vertex-lighting=auto\r\nfix-luminous-block-ambient-occlusion=auto\r\nfix-mean-light-calculation=auto\r\nfix-smooth-lighting-offset=auto\r\n",
+      "policy": "seed"
+    },
+    {
+      "path": "config/badoptimizations.txt",
+      "size": 3458,
+      "sha256": "cae5ba66971b2f61e0b523c5aeb8b8d4fa806f0bea8a1709860e4fea94426ac9",
+      "md5": "7714652525dd4a0c873ddfc124aac217",
+      "text": "# BadOptimizations configuration\n# Toggle and configure optimizations here.\n# *All* of these require restarts.\n\n# Whether we should cancel updating the lightmap if not needed.\nenable_lightmap_caching: true\n# How much the in-game time must change in ticks (default tick rate = 1/20th of a second)\n# for the lightmap to update.\n# Higher values will result in less frequent updates\n# to block lighting, but slightly better performance.\n# Values below 2 will disable the optimization.\n# Has no effect in Minecraft 1.21.11+ as lightmap caching no longer directly uses time.\nlightmap_time_change_needed_for_update: 80\n\n# Whether the sky's color should be cached unless you're on a biome border.\n# Has no effect in Minecraft 1.21.11+ as the sky color was made data-driven.\nenable_sky_color_caching: true\n# How much the in-game time must change in ticks for the sky color to\n# be recalculated when not between biome borders. Higher values will result in\n# the sky updating less frequently, but slightly better performance.\n# Values below 2 will all have the same effect.\nskycolor_time_change_needed_for_update: 3\n\n# Whether we should avoid calling debug renderers\n# if there are no debug entries to render or process.\nenable_debug_renderer_disable_if_not_needed: true\n\n#\n# Micro optimizations\n#\n\n# Whether we should avoid calling the particle manager\n# and its calculations if there are no particles.\nenable_particle_manager_optimization: true\n# Whether we should avoid calling the toast manager if there are no toasts.\nenable_toast_optimizations: true\n# Whether the result of getSkyAngle should be cached\n# for the entire frame during rendering.\nenable_sky_angle_caching_in_worldrenderer: true\n# Whether entity renderers should be stored directly in EntityType instead of a HashMap.\n# If your entity-adding mod crashes with BadOptimizations, try disabling this first.\nenable_entity_renderer_caching: true\n# Whether block entity renderers should be stored in BlockEntityType instead of a HashMap.\nenable_block_entity_renderer_caching: true\n# Whether entity flags should be cached instead of calling DataTracker.\n# Also removes the unnecessary thread lock in DataTracker.\n# Unneeded with Lithium. Has no effect in Minecraft 1.20.5+.\nenable_entity_flag_caching: true\n# Whether we should avoid calling FOV calculations\n# if the FOV effect scale is zero.\nenable_remove_redundant_fov_calculations: true\n# Don't tick the tutorial if the game is not in demo mode.\nenable_remove_tutorial_if_not_demo: true\n\n#\n# Other\n#\n\n# Whether BadOptimizations <version> should be added onto\n# the left text of the F3 menu.\n# In 1.21.9+, enabling this puts it into the F3 customizer screen.\nshow_f3_text: true\n\n# Some config options will be force-disabled if certain mods are present\n# due to incompatibilities (e.g. entity rendering caching\n# is disabled w/ Twilight Forest / BedrockSkinUtility / SkinShuffle).\n# However, if you still want to use the optimizations, you can override it\n# by setting this to true. Beware of crashes. And Herobrine.\nignore_mod_incompatibilities: false\n\n# Some mods add hooks that add extra conditions to lightmap/skycolor caching.\n# Set this to true to ignore loading them. Enabling may cause issues with\n# lighting mods and is not recommended.\nignore_mod_cache_hooks: false\n\n# Whether to log the entire config into console when booting up.\n# If you plan on reporting an issue, please keep this on.\nlog_config: true\n\n# Do not change this\nconfig_version: 6\n",
+      "policy": "seed"
+    },
+    {
+      "path": "config/chat_heads.json5",
+      "size": 229,
+      "sha256": "e198750061411cf7fca624e38b894ca104ca2cf2c2940da0409ce4240dcc2503",
+      "md5": "582cc3f28157f02c5504e49bc7e4a9f2",
+      "text": "{\n\t\"renderPosition\": \"BEFORE_NAME\",\n\t\"threeDeeNess\": 0.0,\n\t\"offsetNonPlayerText\": true,\n\t\"senderDetection\": \"UUID_AND_HEURISTIC\",\n\t\"smartHeuristics\": true,\n\t\"handleSystemMessages\": true,\n\t\"drawShadow\": true,\n\t\"nameAliases\": { }\n}",
+      "policy": "seed"
+    },
+    {
+      "path": "config/custom_glow_enchantment_outline.json",
+      "size": 3610,
+      "sha256": "b27d4cdf537d8d15c231939af238b9dd1f5ddcdbe210892b1217a58e23c96519",
+      "md5": "d2b2714ac874b4cb232a50e0c7bd9c55",
+      "text": "{\n  \"outlineEnabled\": true,\n  \"outlineThickness\": 3,\n  \"colorHex\": \"#D088FC\",\n  \"rainbowMode\": \"off\",\n  \"rainbowSpeed\": 0.5,\n  \"durabilityAlertEnabled\": true,\n  \"displayMode\": \"all\",\n  \"whitelist\": [\n    {\n      \"id\": \"minecraft:wooden_sword\",\n      \"ignoreEnchantment\": false\n    },\n    {\n      \"id\": \"minecraft:stone_sword\",\n      \"ignoreEnchantment\": false\n    },\n    {\n      \"id\": \"minecraft:iron_sword\",\n      \"ignoreEnchantment\": false\n    },\n    {\n      \"id\": \"minecraft:golden_sword\",\n      \"ignoreEnchantment\": false\n    },\n    {\n      \"id\": \"minecraft:diamond_sword\",\n      \"ignoreEnchantment\": false\n    },\n    {\n      \"id\": \"minecraft:netherite_sword\",\n      \"ignoreEnchantment\": false\n    },\n    {\n      \"id\": \"minecraft:wooden_pickaxe\",\n      \"ignoreEnchantment\": false\n    },\n    {\n      \"id\": \"minecraft:stone_pickaxe\",\n      \"ignoreEnchantment\": false\n    },\n    {\n      \"id\": \"minecraft:iron_pickaxe\",\n      \"ignoreEnchantment\": false\n    },\n    {\n      \"id\": \"minecraft:golden_pickaxe\",\n      \"ignoreEnchantment\": false\n    },\n    {\n      \"id\": \"minecraft:diamond_pickaxe\",\n      \"ignoreEnchantment\": false\n    },\n    {\n      \"id\": \"minecraft:netherite_pickaxe\",\n      \"ignoreEnchantment\": false\n    },\n    {\n      \"id\": \"minecraft:wooden_axe\",\n      \"ignoreEnchantment\": false\n    },\n    {\n      \"id\": \"minecraft:stone_axe\",\n      \"ignoreEnchantment\": false\n    },\n    {\n      \"id\": \"minecraft:iron_axe\",\n      \"ignoreEnchantment\": false\n    },\n    {\n      \"id\": \"minecraft:golden_axe\",\n      \"ignoreEnchantment\": false\n    },\n    {\n      \"id\": \"minecraft:diamond_axe\",\n      \"ignoreEnchantment\": false\n    },\n    {\n      \"id\": \"minecraft:netherite_axe\",\n      \"ignoreEnchantment\": false\n    },\n    {\n      \"id\": \"minecraft:wooden_shovel\",\n      \"ignoreEnchantment\": false\n    },\n    {\n      \"id\": \"minecraft:stone_shovel\",\n      \"ignoreEnchantment\": false\n    },\n    {\n      \"id\": \"minecraft:iron_shovel\",\n      \"ignoreEnchantment\": false\n    },\n    {\n      \"id\": \"minecraft:golden_shovel\",\n      \"ignoreEnchantment\": false\n    },\n    {\n      \"id\": \"minecraft:diamond_shovel\",\n      \"ignoreEnchantment\": false\n    },\n    {\n      \"id\": \"minecraft:netherite_shovel\",\n      \"ignoreEnchantment\": false\n    },\n    {\n      \"id\": \"minecraft:wooden_hoe\",\n      \"ignoreEnchantment\": false\n    },\n    {\n      \"id\": \"minecraft:stone_hoe\",\n      \"ignoreEnchantment\": false\n    },\n    {\n      \"id\": \"minecraft:iron_hoe\",\n      \"ignoreEnchantment\": false\n    },\n    {\n      \"id\": \"minecraft:golden_hoe\",\n      \"ignoreEnchantment\": false\n    },\n    {\n      \"id\": \"minecraft:diamond_hoe\",\n      \"ignoreEnchantment\": false\n    },\n    {\n      \"id\": \"minecraft:netherite_hoe\",\n      \"ignoreEnchantment\": false\n    },\n    {\n      \"id\": \"minecraft:bow\",\n      \"ignoreEnchantment\": false\n    },\n    {\n      \"id\": \"minecraft:crossbow\",\n      \"ignoreEnchantment\": false\n    },\n    {\n      \"id\": \"minecraft:trident\",\n      \"ignoreEnchantment\": false\n    },\n    {\n      \"id\": \"minecraft:mace\",\n      \"ignoreEnchantment\": false\n    },\n    {\n      \"id\": \"minecraft:shield\",\n      \"ignoreEnchantment\": false\n    },\n    {\n      \"id\": \"minecraft:fishing_rod\",\n      \"ignoreEnchantment\": false\n    },\n    {\n      \"id\": \"minecraft:shears\",\n      \"ignoreEnchantment\": false\n    },\n    {\n      \"id\": \"minecraft:totem_of_undying\",\n      \"ignoreEnchantment\": true\n    },\n    {\n      \"id\": \"ruby-notices:totem_de_sabiduria\",\n      \"ignoreEnchantment\": true\n    }\n  ],\n  \"shieldEnabled\": true,\n  \"totemEnabled\": true,\n  \"totemThickness\": 3,\n  \"totemColorHex\": \"#FFF3A5\",\n  \"totemRainbowMode\": \"off\",\n  \"totemRainbowSpeed\": 0.5\n}",
+      "policy": "seed"
+    },
+    {
+      "path": "config/enhancedtooltips.json",
+      "size": 363,
+      "sha256": "e5ebc612da606d1e2966e99d8b2477471ec63f2a36a6bf14c54e39376e0b5bcf",
+      "md5": "97b913127c337e0ed91ab0a60a1911f4",
+      "text": "{\n  \"showEnchantDescriptions\": false,\n  \"showDurability\": true,\n  \"showMiningSpeed\": true,\n  \"showEnchantability\": false,\n  \"showArmorProtection\": true,\n  \"showArmorKnockback\": true,\n  \"showArmorToughness\": true,\n  \"showFoodHunger\": false,\n  \"showFoodSaturation\": false,\n  \"showFoodEffects\": false,\n  \"hungerFoodColor\": \"gold\",\n  \"saturationFoodColor\": \"yellow\"\n}",
+      "policy": "seed"
+    },
+    {
+      "path": "config/enhancedtooltips.json5",
+      "size": 5180,
+      "sha256": "8137e51008884a32a09331c2b7b1b301ba70789ad5b79a7a81e9fa7b85db48c1",
+      "md5": "5be48b066817332a726519065d0fe973",
+      "text": "{\n\t\"general\": {\n\t\t/* Shows the rarity of an item in its tooltip.\n\t\t   (default: true)\n\t\t*/\n\t\t\"rarityTooltip\": true,\n\t\t/* Shows the category of an item in a badge on its tooltip.\n\t\t   (default: true)\n\t\t*/\n\t\t\"itemBadges\": false,\n\t\t/* Removes all spacing between lines.\n\t\t   (default: false)\n\t\t*/\n\t\t\"removeAllSpacing\": false,\n\t\t/* Adjusts the size of tooltips.\n\t\t   A scale of 100% displays the tooltip at its default size.\n\t\t   (default: 1.0)\n\t\t*/\n\t\t\"scaleFactor\": 0.949999988079071\n\t},\n\t\"popUpAnimation\": {\n\t\t/* Toggles the tooltip pop-up animation.\n\t\t   (default: true)\n\t\t*/\n\t\t\"enabled\": true,\n\t\t/* Duration of the pop-up animation in seconds.\n\t\t   (default: 1.5)\n\t\t*/\n\t\t\"time\": 1.5,\n\t\t/* Magnitude of the pop-up animation.\n\t\t   (default: 1.0)\n\t\t*/\n\t\t\"magnitude\": 1.0\n\t},\n\t\"itemPreviewAnimation\": {\n\t\t/* Toggles the item preview bouncing animation.\n\t\t   (default: true)\n\t\t*/\n\t\t\"enabled\": true,\n\t\t/* Duration of the item preview animation in seconds.\n\t\t   (default: 1.0)\n\t\t*/\n\t\t\"time\": 1.0,\n\t\t/* Magnitude of the item preview animation.\n\t\t   (default: 2.0)\n\t\t*/\n\t\t\"magnitude\": 2.0\n\t},\n\t\"border\": {\n\t\t/* Determines how the border color of tooltips is set.\n\t\t   RARITY/ITEM_NAME/CUSTOM (default: RARITY)\n\t\t*/\n\t\t\"borderColor\": \"RARITY\",\n\t\t// Custom border colors when borderColor is set to CUSTOM.\n\t\t\"customBorderColors\": {\n\t\t\t/* 'Common' rarity border color.\n\t\t\t   (default: #5000FF50)\n\t\t\t*/\n\t\t\t\"common\": \"#5000FF50\",\n\t\t\t/* 'Uncommon' rarity border color.\n\t\t\t   (default: #FFFF55FF)\n\t\t\t*/\n\t\t\t\"uncommon\": \"#FFFF55FF\",\n\t\t\t/* 'Rare' rarity border color.\n\t\t\t   (default: #55FFFFFF)\n\t\t\t*/\n\t\t\t\"rare\": \"#55FFFFFF\",\n\t\t\t/* 'Epic' rarity border color.\n\t\t\t   (default: #FF00FFFF)\n\t\t\t*/\n\t\t\t\"epic\": \"#FF00FFFF\",\n\t\t\t/* Gradient end color for the border.\n\t\t\t   (default: #5000FF50)\n\t\t\t*/\n\t\t\t\"endColor\": \"#5000FF50\"\n\t\t}\n\t},\n\t\"background\": {\n\t\t/* Determines how the background of tooltips is set.\n\t\t   DEFAULT/CUSTOM (default: DEFAULT)\n\t\t*/\n\t\t\"backgroundMode\": \"DEFAULT\",\n\t\t/* Background color of the tooltip.\n\t\t   (default: #100010F0)\n\t\t*/\n\t\t\"backgroundColor\": \"#100010F0\"\n\t},\n\t\"foodAndDrinks\": {\n\t\t/* Shows the maximum hunger which can be gained from an item in its tooltip.\n\t\t   (default: true)\n\t\t*/\n\t\t\"hungerTooltip\": true,\n\t\t/* Shows the maximum saturation which can be gained from an item in its tooltip.\n\t\t   (default: true)\n\t\t*/\n\t\t\"saturationTooltip\": true,\n\t\t/* Shows a list of effects applied on consuming an item in its tooltip.\n\t\t   WITH_ICONS/WITHOUT_ICONS/OFF (default: WITH_ICONS)\n\t\t*/\n\t\t\"effectsTooltip\": \"WITH_ICONS\"\n\t},\n\t\"mobs\": {\n\t\t/* The rotation speed of the model.\n\t\t   (default: 0.2)\n\t\t*/\n\t\t\"rotationSpeed\": 0.20000000298023224,\n\t\t/* Shows a preview of the armor piece on an armor stand or the player.\n\t\t   PLAYER/ARMOR_STAND/OFF (default: PLAYER)\n\t\t*/\n\t\t\"armorTooltip\": \"OFF\",\n\t\t/* Shows a preview of the horse armor on a horse.\n\t\t   (default: true)\n\t\t*/\n\t\t\"horseArmorTooltip\": false,\n\t\t/* Shows a preview of the wolf armor on a wolf.\n\t\t   (default: true)\n\t\t*/\n\t\t\"wolfArmorTooltip\": false,\n\t\t/* Shows a preview of the bucket entity in a bucket.\n\t\t   (default: true)\n\t\t*/\n\t\t\"bucketTooltip\": true,\n\t\t/* Shows a preview of the spawn egg entity.\n\t\t   (default: true)\n\t\t*/\n\t\t\"spawnEggTooltip\": false,\n\t\t/* Disables EMF models completely. Can help prevent some UI glitches when used with resource-packs like Fresh Animations.\n\t\t   (default: false)\n\t\t*/\n\t\t\"disableEmfModels\": true\n\t},\n\t\"mapTooltip\": {\n\t\t/* Shows a preview of the filled map in its tooltip.\n\t\t   (default: true)\n\t\t*/\n\t\t\"enabled\": true\n\t},\n\t\"paintingTooltip\": {\n\t\t/* Shows a preview of the painting in its tooltip.\n\t\t   (default: true)\n\t\t*/\n\t\t\"enabled\": true\n\t},\n\t\"bannerPatternTooltip\": {\n\t\t/* Shows a preview of the banner pattern in its tooltip.\n\t\t   (default: true)\n\t\t*/\n\t\t\"enabled\": true\n\t},\n\t\"armorIconTooltip\": {\n\t\t/* Shows the armor attribute in the form of icons.\n\t\t   (default: true)\n\t\t*/\n\t\t\"enabled\": true\n\t},\n\t\"durability\": {\n\t\t/* Shows the durability of an item in its tooltip.\n\t\t   VALUE/PERCENTAGE/OFF (default: VALUE)\n\t\t*/\n\t\t\"durabilityTooltip\": \"OFF\",\n\t\t/* Shows the durability of an item, represented by a bar, in its tooltip.\n\t\t   (default: false)\n\t\t*/\n\t\t\"durabilityBar\": false\n\t},\n\t\"heldItemTooltip\": {\n\t\t/* Toggles the improved held items tooltips feature.\n\t\t   ON/MINIMAL/OFF (default: ON)\n\t\t*/\n\t\t\"mode\": \"OFF\",\n\t\t/* Shows a neat background behind the held item tooltip text.\n\t\t   (default: true)\n\t\t*/\n\t\t\"showBackground\": true,\n\t\t/* Defines the line limit for the held item tooltip.\n\t\t   (default: 5)\n\t\t*/\n\t\t\"maxLines\": 5,\n\t\t/* Adjusts the size of the held item tooltips.\n\t\t   A scale of 100% displays the tooltip at its default size.\n\t\t   (default: 1.0)\n\t\t*/\n\t\t\"scaleFactor\": 1.0,\n\t\t/* Hides the item's name from its held item toolip.\n\t\t   (default: false)\n\t\t*/\n\t\t\"hideItemName\": false,\n\t\t/* Shows a dynamic tilt animation for the held item tooltip when scrolling the hotbar.\n\t\t   (default: true)\n\t\t*/\n\t\t\"tiltAnimation\": true,\n\t\t/* Duration of the tilt animation in ms.\n\t\t   (default: 300)\n\t\t*/\n\t\t\"tiltDuration\": 300,\n\t\t/* Magnitude of the tilt animation.\n\t\t   (default: 10.0)\n\t\t*/\n\t\t\"tiltMagnitude\": 10.0,\n\t\t/* Smoothness of the tilt animation.\n\t\t   (default: 2.0)\n\t\t*/\n\t\t\"tiltEasing\": 2.0\n\t}\n}",
+      "policy": "seed"
+    },
+    {
+      "path": "config/entityculling.json",
+      "size": 2248,
+      "sha256": "4a6d510b7e0157027b1cf2022184567fd5387aa09d08db108cb0369ba371ddbe",
+      "md5": "4b613a5aed83e0410c9d37c77b480d6a",
+      "text": "{\n  \"configVersion\": 9,\n  \"safeMode\": true,\n  \"renderNametagsThroughWalls\": true,\n  \"blockEntityWhitelist\": [\n    \"botania:flame_ring\",\n    \"create:rope_pulley\",\n    \"minecraft:beacon\",\n    \"create:hose_pulley\",\n    \"betterend:eternal_pedestal\",\n    \"botania:magic_missile\",\n    \"botania:falling_star\"\n  ],\n  \"entityWhitelist\": [\n    \"botania:mana_burst\",\n    \"drg_flares:drg_flares\",\n    \"quark:soul_bead\"\n  ],\n  \"tracingDistance\": 128,\n  \"debugMode\": false,\n  \"sleepDelay\": 10,\n  \"hitboxLimit\": 50,\n  \"captureRate\": 5,\n  \"tickCulling\": true,\n  \"tickCullingWhitelist\": [\n    \"cinematiccataclysm:scylla_cutscene\",\n    \"minecraft:block_display\",\n    \"alexscaves:gum_worm\",\n    \"cinematiccataclysm:maledictus_cutscene\",\n    \"minecraft:jungle_boat\",\n    \"minecraft:spruce_boat\",\n    \"mts:builder_rendering\",\n    \"drg_flares:drg_flares\",\n    \"minecraft:mangrove_boat\",\n    \"mts:builder_existing\",\n    \"minecraft:acacia_boat\",\n    \"minecraft:birch_chest_boat\",\n    \"create:contraption\",\n    \"drg_flares:drg_flare\",\n    \"cinematiccataclysm:leviathan_cutscene\",\n    \"minecraft:birch_boat\",\n    \"minecraft:boat\",\n    \"mts:builder_seat\",\n    \"minecraft:cherry_boat\",\n    \"alexscaves:gum_worm_segment\",\n    \"cinematiccataclysm:ancient_remnant_cutscene\",\n    \"minecraft:spruce_chest_boat\",\n    \"minecraft:dark_oak_boat\",\n    \"minecraft:oak_chest_boat\",\n    \"avm_staff:campfire_flame\",\n    \"minecraft:dark_oak_chest_boat\",\n    \"minecraft:text_display\",\n    \"create:gantry_contraption\",\n    \"minecraft:oak_boat\",\n    \"createbigcannons:cannon_carriage\",\n    \"minecraft:pale_oak_boat\",\n    \"minecraft:acacia_chest_boat\",\n    \"minecraft:cherry_chest_boat\",\n    \"createbigcannons:pitch_contraption\",\n    \"minecraft:item_display\",\n    \"cinematiccataclysm:ignis_cutscene\",\n    \"create:stationary_contraption\",\n    \"minecraft:bamboo_raft\",\n    \"create:carriage_contraption\",\n    \"minecraft:firework_rocket\",\n    \"minecraft:jungle_chest_boat\",\n    \"minecraft:pale_oak_chest_boat\",\n    \"minecraft:bamboo_chest_raft\",\n    \"minecraft:mangrove_chest_boat\",\n    \"voidscape:corrupted_pawn\"\n  ],\n  \"disableF3\": false,\n  \"skipEntityCulling\": false,\n  \"skipBlockEntityCulling\": false,\n  \"blockEntityFrustumCulling\": true,\n  \"forceDisplayCulling\": false,\n  \"solidLeaves\": false\n}",
+      "policy": "seed"
+    },
+    {
+      "path": "config/explosiveenhancement.json",
+      "size": 885,
+      "sha256": "91299501c49e2b907439a77189e031842b24c313aca4ac3fc301c34b63e4ae33",
+      "md5": "495c07a9b15af778bda2247bcbdc0ba8",
+      "text": "{\n  \"show_blast_wave\": true,\n  \"show_fireball\": true,\n  \"show_mushroom_cloud\": true,\n  \"show_sparks\": true,\n  \"spark_size\": 5.3,\n  \"spark_opacity\": 0.7,\n  \"show_default_explosion\": false,\n  \"underwater_explosions\": true,\n  \"show_shockwave\": true,\n  \"show_underwater_blast_wave\": true,\n  \"bubble_amount\": 50,\n  \"show_underwater_sparks\": false,\n  \"underwater_spark_size\": 4.0,\n  \"underwater_spark_opacity\": 0.3,\n  \"show_default_explosion_underwater\": false,\n  \"dynamic_size\": true,\n  \"dynamic_underwater\": true,\n  \"extra_power\": false,\n  \"big_extra_power\": 0.0,\n  \"small_extra_power\": 0.0,\n  \"attempt_better_small_explosions\": true,\n  \"small_explosion_y_offset\": -0.5,\n  \"attempt_power_knockback_calc\": false,\n  \"bypass_power_for_singleplayer\": true,\n  \"mod_enabled\": true,\n  \"emissive_explosion\": true,\n  \"emissive_water_explosion\": true,\n  \"always_show\": false,\n  \"debug_logs\": false\n}",
+      "policy": "seed"
+    },
+    {
+      "path": "config/ferritecore.mixin.properties",
+      "size": 1615,
+      "sha256": "bdd54ad580fc678a117e4f559daaed5ebbe0dde176127ddb95dd2d5e5b4e4818",
+      "md5": "5c31ce8efe368dbbf5051a46985ffcd2",
+      "text": "# Replace the blockstate neighbor table\r\nreplaceNeighborLookup = true\r\n# Do not store the properties of a state explicitly and read themfrom the replace neighbor table instead. Requires replaceNeighborLookup to be enabled\r\nreplacePropertyMap = true\r\n# Cache the predicate instances used in multipart models\r\ncacheMultipartPredicates = true\r\n# Avoid creation of new strings when creating ModelResourceLocations\r\nmodelResourceLocations = true\r\n# Do not create a new MultipartBakedModel instance for each block state using the same multipartmodel. Requires cacheMultipartPredicates to be enabled\r\nmultipartDeduplication = true\r\n# Deduplicate cached data for blockstates, most importantly collision and render shapes\r\nblockstateCacheDeduplication = true\r\n# Deduplicate vertex data of baked quads in the basic model implementations\r\nbakedQuadDeduplication = true\r\n# Use smaller data structures for \"simple\" models, especially models with few side-specific faces\r\nmodelSides = true\r\n# Save memory overhead from empty data component maps/patched\r\ndataComponentPatch = true\r\n# Replace objects used to detect multi-threaded access to chunks by a much smaller field. This option is disabled by default due to very rare and very hard-to-reproduce crashes, use at your own risk!\r\nuseSmallThreadingDetector = false\r\n# Use a slightly more compact, but also slightly slower representation for block states\r\ncompactFastMap = false\r\n# Populate the neighbor table used by vanilla. Enabling this slightly increases memory usage, but can help with issues in the rare case where mods access it directly.\r\npopulateNeighborTable = false\r\n",
+      "policy": "seed"
+    },
+    {
+      "path": "config/immediatelyfast.json",
+      "size": 1114,
+      "sha256": "a6c9d147a51c9e432c5c74c00285cfc5ba8b6fa4a0c6686051a7168b158d0d7a",
+      "md5": "8c5364d78b0f6f9c1461f88ca38e8d84",
+      "text": "{\n  \"REGULAR_INFO\": \"----- Regular config values below -----\",\n  \"font_atlas_resizing\": true,\n  \"map_atlas_generation\": true,\n  \"hud_batching\": true,\n  \"fast_text_lookup\": true,\n  \"fast_buffer_upload\": true,\n  \"COSMETIC_INFO\": \"----- Cosmetic only config values below (Does not optimize anything) -----\",\n  \"dont_add_info_into_debug_hud\": false,\n  \"EXPERIMENTAL_INFO\": \"----- Experimental config values below (Rendering glitches may occur) -----\",\n  \"experimental_disable_error_checking\": false,\n  \"experimental_disable_resource_pack_conflict_handling\": false,\n  \"experimental_sign_text_buffering\": false,\n  \"experimental_screen_batching\": false,\n  \"DEBUG_INFO\": \"----- Debug only config values below (Do not touch) -----\",\n  \"debug_only_and_not_recommended_disable_universal_batching\": false,\n  \"debug_only_and_not_recommended_disable_mod_conflict_handling\": false,\n  \"debug_only_and_not_recommended_disable_hardware_conflict_handling\": false,\n  \"debug_only_print_additional_error_information\": false,\n  \"debug_only_use_last_usage_for_batch_ordering\": false,\n  \"debug_only_detailed_memory_leak_detection\": false\n}",
+      "policy": "seed"
+    },
+    {
+      "path": "config/immersive-hotbar.json5",
+      "size": 1647,
+      "sha256": "65a09073fdacac2180e2728af661b2abb9fdbd66b78731f8d3b0279e2302cd6d",
+      "md5": "420fe0a3bcec2c788e695b204e63ed64",
+      "text": "{\n\tselectedItemSize: 1.2,\n\tbouncyStiffness: 0.3,\n\tbouncyDamping: 0.2,\n\tshouldItemGrowWhenSelected: true,\n\tdurabilityAnimates: true,\n\ttoolAnimates: false,\n\tweaponAnimates: false,\n\tbouncyAnimation: false,\n\tfoodAnimates: true,\n\ttoolsIgnoreBounce: false,\n\tweaponsIgnoreBounce: false,\n\ttextScales: true,\n\thotbarSelectionColor: 2147483647,\n\tlowDurabilityGlow: false,\n\timmersiveToolTip: true,\n\ttooltipYOffsetEnabled: false,\n\ttooltipYOffset: 52,\n\ttooltipAnimateOnItemChange: true,\n\ttooltipAnimateOnEmptySlot: true,\n\ttooltipPopScale: 1.2,\n\ttooltipAnimationSpeed: 8.0,\n\ttooltipShrinkSpeed: 10.0,\n\ttooltipMinimumFadeScale: 0.0,\n\tanimateOverlayMessages: true,\n\tscaleTooltipOffset: true,\n\tdurabilityGlowThreshold: 0.8,\n\tshowBackground: \"DISABLED\",\n\tanimationIntensity: 0.5,\n\tnonSelectedItemSize: 1.0,\n\tshrinkAnimationSpeed: 2.5,\n\tanimationSpeed: 0.1,\n\thotbarItemAnimationsEnabled: true,\n\tvanillaItemBobbing: false,\n\tpickupAnimationsEnabled: true,\n\tuseAnimationsEnabled: true,\n\tshrinkOutOnEmptyEnabled: true,\n\toffhandAnimationsEnabled: true,\n\tselectorScaleEnabled: true,\n\tanimatedXpBar: true,\n\txpTextPulseEnabled: true,\n\txpBarSpeed: 1.0,\n\txpGlowEnabled: true,\n\txpGlowColor: -171,\n\txpGlowFadeSpeed: 0.04,\n\txpGlowBoostOnGain: 0.35,\n\tglowTailPx: 18,\n\tglowTailStrips: 6,\n\txpLevelUpParticlesEnabled: true,\n\txpLevelUpParticleColor: -171,\n\txpLevelUpParticleLevels: 5,\n\txpBarPulseEnabled: true,\n\txpBarPulseLevels: 1,\n\txpBarPulseColor: -171,\n\txpGlowClampTail: true,\n\txpTextPulseScale: 2.0,\n\txpTextPulseSpeed: 1.5,\n\txpTextPulseReturnSpeed: 0.1,\n\txpLevelUpParticleAmount: 25,\n\txpLevelUpParticleSize: 2.5,\n\txpBarPulseSpeed: 0.08,\n\txpBarPulseSize: 8.0,\n\txpBarPulseLines: 3\n}",
+      "policy": "seed"
+    },
+    {
+      "path": "config/immersiveui.yaml",
+      "size": 1451,
+      "sha256": "2abb8702e36e2745284cb4337508d9e2305ff7bf1d6eebe23bf05de75b3acff6",
+      "md5": "38291f5c2e2e3761f811630a7694eebb",
+      "text": "# Enables wobbly items in advancement toasts.\nenableAdvancementToastItems: true\n# Enables special formatting for items with cursed enchantments.\nenableCurseFormatting: true\n# Enables particles in the enchant(ing/ment) table.\nenableEnchantParticles: true\n# Enables floating item rotation.\nenableFloatingItemRotation: true\n# Enables the hotbar selector animation.\nenableHotbarSelectorAnimation: true\n# Enables hovering of matching items.\nenableMatchingItemHovering: true\n# Enables particles for rare items.\nenableRarityParticles: true\n# Enables screen shake.\nenableScreenShake: true\n# Enables vanilla slot highlighting\nenableVanillaSlotHighlighting: true\n# Affects the easing speed, that is applied to the rotation of the floating item.\nfloatingItemEasingSpeed: 0.75\n# Affects the rotation amplitude of the floating item.\nfloatingItemRotationAmplitude: 1.0\n# Affects the size of the floating item.\nfloatingItemScale: 1.4\n# Affects the speed of the hotbar selector.\nhotbarSelectorSpeed: 3.0\n# Affects the size of the hovered item.\nhoveredItemScale: 1.4\n# Affects the hover amplitude of items, that match to the item that is carried in the cursor.\nmatchingItemHoverAmplitude: 0.8\n# Moves the hotbar selector above the items. You might want to disable this, if you use resource packs that change the default selector texture.\nrenderHotbarSelectorAboveItems: false\n# Screen shake amplitude.\nshakeAmplitude: 1.25\n# Screen shake timer in ticks.\nshakeTimer: 8\n",
+      "policy": "seed"
+    },
+    {
+      "path": "config/lambdynlights.toml",
+      "size": 1448,
+      "sha256": "fdd6958ff17541c8d1c891bd1602088bb6888f41229e966387a07311f32ec6d9",
+      "md5": "ea1917df0f1c3fd26e782f0d9f5a63cc",
+      "text": "# LambDynamicLights configuration.\n# The dynamic lights mode\nmode = \"fancy\"\n\n# The chunk rebuild scheduler mode (immediate, culling).\nchunk_rebuild_scheduler = \"culling\"\n\n[adaptive_ticking]\n\t# How far away (in chunks) until light sources get ticked less often.\n\tslow = 5\n\t# How far away (in chunks) until light sources get ticked even less often.\n\tslower = 8\n\t# Reduces how often sources behind the camera get ticked.\n\tbackground_sleep = true\n\n# Light sources settings.\n[light_sources]\n\t# Enable entities light source.\n\tentities = true\n\t# Enable first-person player light source.\n\tself = true\n\t# Enables water-sensitive light sources check. This means that water-sensitive items will not light up when submerged in water.\n\twater_sensitive_check = true\n\t# Creeper lighting mode. May be off, simple or fancy.\n\tcreeper = \"simple\"\n\t# TNT lighting mode. May be off, simple or fancy.\n\ttnt = \"off\"\n\t# Enables dynamic lighting of beacon or end gateway beams.\n\tbeam = true\n\t# Enables dynamic lighting of firefly particles from Firefly Bushes.\n\tfirefly = true\n\t# Enables dynamic lighting of Guardian's lasers. This also can be toggled off by disabling Guardian dynamic lighting.\n\tguardian_laser = true\n\t# Enables dynamic lighting of the Warden's sonic boom attack particles.\n\tsonic_boom = true\n\t# Enables dynamic lighting for entities that have the Glowing effect.\n\tglowing_effect = true\n\n[light_sources.settings.entities.minecraft]\n\tglow_item_frame = false\n",
+      "policy": "seed"
+    },
+    {
+      "path": "config/languagereload.json",
+      "size": 216,
+      "sha256": "4ce2e6663723aaff35d1700cfd7ba63d89b5bf28f182e9773b0840657fbbe184",
+      "md5": "93e367bf0b1769d881dbbe4bca09de8b",
+      "text": "{\n  \"version\": 1,\n  \"multilingualItemSearch\": true,\n  \"removableDefaultLanguage\": false,\n  \"fallbacks\": [\n    \"en_us\"\n  ],\n  \"previousFallbacks\": [\n    \"en_us\"\n  ],\n  \"language\": \"es_mx\",\n  \"previousLanguage\": \"\"\n}\r\n",
+      "policy": "seed"
+    },
+    {
+      "path": "config/lithium.properties",
+      "size": 267,
+      "sha256": "6cf6f83720071fd1657c8e79b357caf68d40f410ae123e5f922483eb1d1d25be",
+      "md5": "65a61a8f2201e0a571d48a7f0295da19",
+      "text": "# This is the configuration file for Lithium.\n#\n# You can find information on editing this file and all the available options here:\n# https://github.com/CaffeineMC/lithium-fabric/wiki/Configuration-File\n#\n# By default, this file will be empty except for this notice.\n",
+      "policy": "seed"
+    },
+    {
+      "path": "config/modelfix-client.json",
+      "size": 207,
+      "sha256": "b55936928438ab49ebc8086579cd2218faf14d777fd15ec6eee895dbcadb667d",
+      "md5": "af2d4dfa62f6c4292257d5e86d3ceb0f",
+      "text": "{\n  \"default\": {\n    \"item_quads_expansion\": 0.0,\n    \"item_quads_indent\": 1.0E-4\n  },\n  \"mac_os\": {\n    \"item_quads_expansion\": 0.0,\n    \"item_quads_indent\": 0.0099,\n    \"shrink_ratio_multiplier\": 1.0\n  }\n}",
+      "policy": "seed"
+    },
+    {
+      "path": "config/modernfix-mixins.properties",
+      "size": 4087,
+      "sha256": "5d638483a8b6ce35fcba87578edc963515b6d9d4aa3fa53191e43b9dfd2eabe5",
+      "md5": "259d280fb63195be3a723ef3754dacf2",
+      "text": "# This is the configuration file for ModernFix.\n# In general, prefer using the config screen to editing this file. It can be accessed\n# via the standard mod menu on your respective mod loader. Changes will, however,\n# require restarting the game to take effect.\n#\n# The following options can be enabled or disabled if there is a compatibility issue.\n# Add a line with your option name and =true or =false at the bottom of the file to enable\n# or disable a rule. For example:\n#   mixin.perf.dynamic_resources=true\n# Do not include the #. You may reset to defaults by deleting this file.\n#\n# Available options:\n#  mixin.bugfix.chunk_deadlock=true # (default)\n#  mixin.bugfix.concurrency=true # (default)\n#  mixin.bugfix.ender_dragon_leak=true # (default)\n#  mixin.bugfix.missing_block_entities=false # (default)\n#  mixin.bugfix.packet_leak=false # (default)\n#  mixin.bugfix.paper_chunk_patches=true # (default)\n#  mixin.bugfix.restore_old_dragon_movement=false # (default)\n#  mixin.bugfix.world_leaks=true # (default)\n#  mixin.bugfix.world_screen_skipped=true # (default)\n#  mixin.devenv=false # (default)\n#  mixin.feature.blockentity_incorrect_thread=false # (default)\n#  mixin.feature.branding=true # (default)\n#  mixin.feature.cause_lag_by_disabling_threads=false # (default)\n#  mixin.feature.direct_stack_trace=false # (default)\n#  mixin.feature.disable_unihex_font=false # (default)\n#  mixin.feature.integrated_server_watchdog=true # (default)\n#  mixin.feature.log_stdout_in_log_files=true # (default)\n#  mixin.feature.mcfunction_profiling=true # (default)\n#  mixin.feature.measure_time=true # (default)\n#  mixin.feature.remove_chat_signing=false # (default)\n#  mixin.feature.remove_telemetry=true # (default)\n#  mixin.feature.snapshot_easter_egg=true # (default)\n#  mixin.feature.spam_thread_dump=false # (default)\n#  mixin.feature.spark_profile_launch=false # (default)\n#  mixin.feature.spark_profile_world_join=false # (default)\n#  mixin.feature.stalled_chunk_load_detection=false # (default)\n#  mixin.feature.suppress_narrator_stacktrace=true # (default)\n#  mixin.feature.warn_missing_perf_mods=true # (default)\n#  mixin.launch.class_search_cache=true # (default)\n#  mixin.perf.cache_blockstate_cache_arrays=true # (default)\n#  mixin.perf.cache_model_materials=true # (default)\n#  mixin.perf.cache_profile_texture_url=true # (default)\n#  mixin.perf.cache_strongholds=true # (default)\n#  mixin.perf.chunk_meshing=true # (default)\n#  mixin.perf.clear_fabric_mapping_tables=false # (default)\n#  mixin.perf.clear_mixin_classinfo=false # (default)\n#  mixin.perf.compact_bit_storage=true # (default)\n#  mixin.perf.compact_mojang_registries=true # (default)\n#  mixin.perf.compress_unihex_font=true # (default)\n#  mixin.perf.dedicated_reload_executor=true # (default)\n#  mixin.perf.deduplicate_climate_parameters=false # (default)\n#  mixin.perf.deduplicate_location=false # (default)\n#  mixin.perf.deduplicate_wall_shapes=true # (default)\n#  mixin.perf.dynamic_dfu=true # (default)\n#  mixin.perf.dynamic_entity_renderers=false # (default)\n#  mixin.perf.dynamic_resources=false # (default)\n#  mixin.perf.dynamic_structure_manager=true # (default)\n#  mixin.perf.faster_command_suggestions=true # (default)\n#  mixin.perf.faster_item_rendering=false # (default)\n#  mixin.perf.faster_texture_stitching=true # (default)\n#  mixin.perf.fix_loop_spin_waiting=true # (default)\n#  mixin.perf.ingredient_item_deduplication=false # (default)\n#  mixin.perf.lazy_search_tree_registry=true # (default)\n#  mixin.perf.memoize_creative_tab_build=true # (default)\n#  mixin.perf.model_optimizations=true # (default)\n#  mixin.perf.mojang_registry_size=true # (default)\n#  mixin.perf.reduce_blockstate_cache_rebuilds=true # (default)\n#  mixin.perf.remove_biome_temperature_cache=true # (default)\n#  mixin.perf.resourcepacks=true # (default)\n#  mixin.perf.state_definition_construct=true # (default)\n#  mixin.perf.thread_priorities=true # (default)\n#  mixin.perf.ticking_chunk_alloc=true # (default)\n#  mixin.perf.worldgen_allocation=true # (default)\n#  mixin.safety=true # (default)\n#\n# User overrides go here.\n",
+      "policy": "seed"
+    },
+    {
+      "path": "config/modmenu.json",
+      "size": 840,
+      "sha256": "16d20c40cc6c114faff5493b561873fe160a65047720bc19fb3a3dd64aa67f3b",
+      "md5": "6f801fc101c146e1c993f05544858c34",
+      "text": "{\n  \"sorting\": \"ascending\",\n  \"count_libraries\": true,\n  \"compact_list\": false,\n  \"count_children\": true,\n  \"mods_button_style\": \"classic\",\n  \"game_menu_button_style\": \"replace\",\n  \"count_hidden_mods\": true,\n  \"mod_count_location\": \"title_screen\",\n  \"hide_mod_links\": false,\n  \"show_libraries\": false,\n  \"hide_mod_license\": false,\n  \"hide_badges\": false,\n  \"hide_mod_credits\": false,\n  \"easter_eggs\": true,\n  \"random_java_colors\": false,\n  \"translate_names\": true,\n  \"translate_descriptions\": true,\n  \"update_checker\": true,\n  \"button_update_badge\": true,\n  \"update_channel\": \"release\",\n  \"quick_configure\": true,\n  \"modify_title_screen\": true,\n  \"modify_game_menu\": true,\n  \"hide_config_buttons\": false,\n  \"config_mode\": false,\n  \"disable_drag_and_drop\": false,\n  \"hidden_mods\": [],\n  \"hidden_configs\": [],\n  \"disable_update_checker\": []\n}",
+      "policy": "seed"
+    },
+    {
+      "path": "config/raised.json",
+      "size": 330,
+      "sha256": "d7e1693b57d8a852ec38854489fafb15315adf6b877c7f13f0e0dd3640ed4dd4",
+      "md5": "eea4d2f0b593374dbfa10ba33e9acf9f",
+      "text": "{\n  \"groups\": {\n    \"Default\": {\n      \"offset\": {\n        \"x\": 0,\n        \"y\": 12\n      },\n      \"layers\": {\n        \"minecraft:action_bar\": {\n          \"position\": \"BOTTOM\"\n        },\n        \"minecraft:hotbar\": {\n          \"position\": \"BOTTOM\"\n        }\n      }\n    }\n  },\n  \"settings\": {\n    \"selectionIndicator\": \"AUTO\"\n  }\n}",
+      "policy": "seed"
+    },
+    {
+      "path": "config/ruby-bosses.json",
+      "size": 189,
+      "sha256": "a3c8de47655178cbfcc2c2e84de09a876feb10193053464f5eea2a9c493bfeaf",
+      "md5": "ee4d021ab6ab3df6ec5dab2c251f99e1",
+      "text": "{\n  \"witherPhase1Health\": 1800.0,\n  \"witherPhase2Health\": 2400.0,\n  \"dragonHealth\": 2400.0,\n  \"witherHeadDetachPercent\": 37.5,\n  \"dragonFlightPercent\": 75.0,\n  \"dragonDivePercent\": 50.0\n}\r\n",
+      "policy": "managed"
+    },
+    {
+      "path": "config/shine.json",
+      "size": 1277,
+      "sha256": "d4cbea8021ab2ecc501b9754063d4a4f92528d27079c4f20497dee9e1c982ccc",
+      "md5": "8c82e9114dd59659fc4a82aebf3e52fb",
+      "text": "{\n  \"enabled\": false,\n  \"strength\": 3.0,\n  \"threshold\": 0.15,\n  \"radius\": 400.0,\n  \"blurPassCount\": 3,\n  \"bloomDistance\": 75.0,\n  \"highlightClamp\": 0.3,\n  \"softKnee\": 0.2,\n  \"defaultLightSourceStrength\": 50.0,\n  \"defaultNonLightStrength\": 0.0,\n  \"blockStrengthOverrides\": {\n    \"minecraft:closed_eyeblossom\": 50.0,\n    \"minecraft:open_eyeblossom\": 50.0,\n    \"minecraft:resin_clump\": 150.0,\n    \"minecraft:water\": 0.0,\n    \"minecraft:sculk\": 500.0,\n    \"minecraft:sculk_vein\": 150.0,\n    \"minecraft:amethyst_cluster\": 100.0,\n    \"minecraft:large_amethyst_bud\": 100.0,\n    \"minecraft:medium_amethyst_bud\": 100.0,\n    \"minecraft:small_amethyst_bud\": 100.0,\n    \"minecraft:glow_lichen\": 125.0,\n    \"minecraft:warped_stem\": 50.0,\n    \"minecraft:warped_fungus\": 75.0,\n    \"minecraft:nether_portal\": 75.0,\n    \"minecraft:crimson_stem\": 100.0,\n    \"minecraft:twisting_vines\": 25.0,\n    \"minecraft:twisting_vines_plant\": 25.0,\n    \"minecraft:weeping_vines\": 75.0,\n    \"minecraft:weeping_vines_plant\": 75.0,\n    \"minecraft:lava\": 40.0,\n    \"minecraft:crimson_fungus\": 75.0,\n    \"minecraft:nether_wart\": 50.0,\n    \"minecraft:crying_obsidian\": 75.0,\n    \"minecraft:chorus_flower\": 150.0,\n    \"minecraft:powder_snow\": 25.0,\n    \"minecraft:snow\": 25.0,\n    \"minecraft:snow_block\": 25.0\n  }\n}",
+      "policy": "seed"
+    },
+    {
+      "path": "config/sodium-mixins.properties",
+      "size": 258,
+      "sha256": "b627c4456e6fa0bc4b5f85e2f1cd949faedae3cb9afdaf2a5f52e6f3b6ae1f01",
+      "md5": "a5b6a84e034d60be869ae33f2dba4e2b",
+      "text": "# This is the configuration file for Sodium.\n#\n# You can find information on editing this file and all the available options here:\n# https://github.com/CaffeineMC/sodium/wiki/Configuration-File\n#\n# By default, this file will be empty except for this notice.\n",
+      "policy": "seed"
+    },
+    {
+      "path": "config/tiny_takeover_backport.json",
+      "size": 1097,
+      "sha256": "2bc42995ade92d85af29316e19a7e9095a75cb3c4360e3ea5a89b1f00e54660e",
+      "md5": "c0336e5d989a678acb211e35848e9525",
+      "text": "{\n  \"enableNameTagRecipe\": true,\n  \"spawnBabyDolphin\": true,\n  \"spawnBabySquid\": true,\n  \"enableTrumpetNoteBlocks\": true,\n  \"enableAnimalSoundVariants\": true,\n  \"enableArmadillo\": true,\n  \"enableAxolotl\": true,\n  \"enableBee\": true,\n  \"enableCamel\": true,\n  \"enableCat\": true,\n  \"enableChicken\": true,\n  \"enableCow\": true,\n  \"enableDolphin\": true,\n  \"enableDonkey\": true,\n  \"enableDrowned\": true,\n  \"enableFox\": true,\n  \"enableGoat\": true,\n  \"enableHoglin\": true,\n  \"enableHorse\": true,\n  \"enableHusk\": true,\n  \"enableLlama\": true,\n  \"enableMule\": true,\n  \"enableOcelot\": true,\n  \"enablePanda\": true,\n  \"enablePig\": true,\n  \"enablePiglin\": true,\n  \"enablePolarBear\": true,\n  \"enableRabbit\": true,\n  \"enableSheep\": true,\n  \"enableSniffer\": true,\n  \"enableSquid\": true,\n  \"enableStrider\": true,\n  \"enableTurtle\": true,\n  \"enableVillager\": true,\n  \"enableWolf\": true,\n  \"enableZombie\": true,\n  \"enableZombieVillager\": true,\n  \"enableZombifiedPiglin\": true,\n  \"replaceAdultRabbit\": true,\n  \"rabbitBoundingBox\": true,\n  \"enableModdedMobs\": false,\n  \"modelBlacklist\": [\n    \"rottencreatures:burned\"\n  ]\n}",
+      "policy": "seed"
+    },
+    {
+      "path": "config/transition.json",
+      "size": 97,
+      "sha256": "60420a41571a4658b91babfa2b47d6fefb7c1766eeea969f51ff98ab34c2431c",
+      "md5": "31ba5caa4bcc56c2527e5d001e4f0f07",
+      "text": "{\n  \"version\": 1,\n  \"userConsentedToSendCrashReports\": false,\n  \"disableRecipeBookCodes\": false\n}",
+      "policy": "seed"
+    },
+    {
+      "path": "config/trashslot-common.toml",
+      "size": 755,
+      "sha256": "3349153e9cb33227c5fd3b597fcea5ccbd480a6e5396b19004cbea07365ec433",
+      "md5": "0e5f698a295d2d8fdc8a51e409be2a53",
+      "text": "\n# Not recommended, but this will allow you to use the keybinds for deleting items even if the trash slot itself is hidden.\nallowDeletionWhileTrashSlotIsInvisible = false\n\n# List of items that cannot be deleted, in comma-separated format of \"modid:name\".\ndeletionDenyList = [  ]\n\n# Set to true if you want the delete keybindings to work in creative as well. Note: Items will be deleted permanently in creative, regardless of instantDeletion setting!\nenableDeleteKeysInCreative = true\n\n# TrashSlot will show a hint the first time the trash slot is toggled off or can be enabled on a supported screen. Set to false to disable.\nenableHints = true\n\n# This causes the deletion slot to delete items instantly, similar to Creative Mode.\ninstantDeletion = false\n\n",
+      "policy": "seed"
+    },
+    {
+      "path": "config/trender.json",
+      "size": 47,
+      "sha256": "0a282f3623f7f9443a1d10b5768865f69e58b74e000dcfb4f40399626b7a6124",
+      "md5": "c449ad0a8d190858ec253ed1bc75e05d",
+      "text": "{\n  \"version\": 1,\n  \"style\": \"VANILLA_MODERN\"\n}",
+      "policy": "seed"
+    },
+    {
+      "path": "config/vanillabackport-client.toml",
+      "size": 348,
+      "sha256": "dbb3dddcd72f1891a2b7d06b029bc4c045d47b88af084058a937d079a0cec483",
+      "md5": "cc20b6296d65a46be4870c83ca796117",
+      "text": "\r\n[\"Spring to Life\"]\r\n\t#use the legacy spawn egg textures\r\n\tuse_legacy_spawn_eggs = false\r\n\t#toggle the colored sheep wool undercoat\r\n\tuse_sheep_wool_undercoat = true\r\n\t#allow falling leaves particles to generate\r\n\tfalling_leaves = true\r\n\t#how often should falling leaves particles generate\r\n\t#Range: 0.0 ~ 1.0\r\n\tfalling_leaves_frequency = 0.01\r\n\r\n",
+      "policy": "seed"
+    },
+    {
+      "path": "config/vanillabackport-common.toml",
+      "size": 3264,
+      "sha256": "61398a638e46eaf92bdd57f32310390d07ea59c6feb2035c3ac9816ca29462fb",
+      "md5": "c6edb1b86f4d3a0bd55d7f3f325edb4b",
+      "text": "\r\n[\"Bundles of Bravery\"]\r\n\t#toggle the updated controls and UI for bundles\r\n\thas_updated_bundles = true\r\n\t#toggle whether bundles should be dyeable\r\n\thas_dyeable_bundle_recipe = true\r\n\t#allow bundles to appear on chests at villages\r\n\tbundle_loot = true\r\n\t#toggle the modern rendering for bundles\r\n\thas_modern_bundle_graphics = true\r\n\r\n[\"The Garden Awakens\"]\r\n\t#creaking heart trail particle color (gray by default)\r\n\tcreaking_particle_color = 6250335\r\n\t#allow resin to be obtainable from creaking hearts\r\n\tresin = true\r\n\t#creaking heart trail particle reverse color (orange by default)\r\n\tcreaking_particle_reverse_color = 16545810\r\n\t#allow Creaking Hearts to generate Creakings even during the day\r\n\tdo_creaking_hearts_work_on_day = false\r\n\t#allow features from 'The Garden Awakens' to be obtainable through wandering traders\r\n\tpale_trades = true\r\n\t#allow the pale garden to generate in the overworld\r\n\tpale_garden = true\r\n\t#allow resin to appear on chests at woodland mansions\r\n\tresin_loot = true\r\n\t#allow creakings to spawn from creaking hearts\r\n\tcreaking = true\r\n\r\n[\"Spring to Life\"]\r\n\t#allow lodestones to appear on chests at ruined portals\r\n\tlodestone_loot = true\r\n\t#allow cactus flowers to generate\r\n\tcactus_flowers = true\r\n\t#allow wolfs to have variants for their sounds\r\n\twolf_sound_variants = true\r\n\t#allow dry grass to generate in the overworld\r\n\tdry_grass = true\r\n\t#allow wildflowers to generate in the overworld\r\n\twildflowers = true\r\n\t#allow features from 'Spring to Life' to be obtainable through wandering traders\r\n\tspring_trades = true\r\n\t#allow camels to spawn outside of villages\r\n\tcamel_spawns = true\r\n\t#allow bushes to generate in the overworld\r\n\tbushes = true\r\n\t#allow fallen trees to generate in the overworld\r\n\tfallen_trees = true\r\n\t#allow firefly bushes to generate in the overworld\r\n\tfirefly_bushes = true\r\n\t#allow variants for pigs, cows and chickens to generate\r\n\tfarm_animal_variants = true\r\n\t#allow leaf litter to generate in the overworld\r\n\tleaf_litter = true\r\n\r\n[\"Chase the Skies\"]\r\n\t#toggle whether leashes drop their connections when boosting with a firework rocket\r\n\tleash_drop_connections = true\r\n\t#apply a modifier to the speed of happy ghasts when ridden, 1.0 is default speed\r\n\thappy_ghast_speed_modifier = 1.0\r\n\t#allow dried ghasts to be obtainable through nether fossils and piglin bartering\r\n\tdried_ghasts = true\r\n\t#allows ghasts drop the tears music disc\r\n\ttears_music_disc = true\r\n\r\n[\"Hot as Lava\"]\r\n\t#allows chicken jockeys to drop the lava chicken music disc\r\n\tlava_chicken_music_disc = true\r\n\r\n[\"Chaos Cubed\"]\r\n\t#allow the generation of Sulfur Springs on top of Sulfur Caves\r\n\thas_sulfur_springs = true\r\n\t#allow Sulfur Cubes with damaging archetypes to deal damage\r\n\tdo_sulfur_cubes_damage = true\r\n\t#allow Sulfur Cubes with exploding archetypes to explode\r\n\tdo_sulfur_cubes_explode = true\r\n\t#allow Sulfur Cubes to spawn on Sulfur Caves\r\n\thas_sulfur_cubes = true\r\n\t#allow the generation of Sulfur Cave biomes\r\n\thas_sulfur_caves = true\r\n\t#allow Potent Sulfur Blocks to generate Geysers\r\n\tdo_geysers_erupt = true\r\n\t#allows the bounce music disc to generate on abandoned mineshafts\r\n\thas_bounce_music_disc = true\r\n\t#allow Wanderer traders to sell contents from Chaos Cubed\r\n\tdo_merchant_trade_chaos_cubed_contents = true\r\n\r\n",
+      "policy": "seed"
+    },
+    {
+      "path": "config/visuality.json",
+      "size": 1051,
+      "sha256": "1561b99ae57ede995dfb64a91ac5b53dd877f57e4a8f1859526da84511bcec07",
+      "md5": "f3ab874017001fb36fcc1d7e0cd99aaf",
+      "text": "{\n  \"slimeEnabled\": true,\n  \"slimeColor\": {\n    \"field_24364\": 8978297\n  },\n  \"chargeEnabled\": true,\n  \"sparkleEnabled\": true,\n  \"soulEnabled\": true,\n  \"waterCircles\": {\n    \"density\": 10,\n    \"radius\": 16,\n    \"enabled\": true,\n    \"colored\": true\n  },\n  \"hitParticlesEnabled\": true,\n  \"hitParticleEntries\": [\n    \"minecraft:skeleton/visuality:bone\",\n    \"minecraft:skeleton_horse/visuality:bone\",\n    \"minecraft:stray/visuality:bone\",\n    \"minecraft:wither_skeleton/visuality:wither_bone\",\n    \"minecraft:chicken/visuality:feather\",\n    \"minecraft:villager/visuality:emerald\"\n  ],\n  \"shinyArmorEnabled\": true,\n  \"shinyArmorEntries\": [\n    \"minecraft:golden_helmet\",\n    \"minecraft:golden_chestplate\",\n    \"minecraft:golden_leggings\",\n    \"minecraft:golden_boots\",\n    \"minecraft:diamond_helmet\",\n    \"minecraft:diamond_chestplate\",\n    \"minecraft:diamond_leggings\",\n    \"minecraft:diamond_boots\"\n  ],\n  \"shinyBlocksEnabled\": true,\n  \"shinyBlockEntries\": [\n    \"#minecraft:gold_ores\",\n    \"#minecraft:diamond_ores\",\n    \"#minecraft:emerald_ores\"\n  ]\n}",
+      "policy": "seed"
+    },
+    {
+      "path": "config/yacl.json5",
+      "size": 250,
+      "sha256": "121b93764159be6fb7dab523b29a844e2bb78400ce8c48f52135a097e9b0006e",
+      "md5": "9378f7cef65c5208431350700cf83a11",
+      "text": "{\n\t// Show the flashing colour picker hint (auto disables after first use)\n\tshowColorPickerIndicator: true,\n\t// Load .webp and .gif during Minecraft resource reload instead of on-demand (can decrease startup time)\n\tpreloadComplexImageFormats: false\n}",
+      "policy": "seed"
+    }
+  ],
+  "fabricProfile": {
+    "id": "fabric-loader-0.19.5-1.21.1",
+    "url": "https://meta.fabricmc.net/v2/versions/loader/1.21.1/0.19.5/profile/json",
+    "size": 2862,
+    "sha256": "92bf03640b337a689a46b6fd693deb5b75295ed6d5c5731048c80d89a57274a2",
+    "md5": "fe5ee0f50c43ba614957b504bf0b813a"
+  },
+  "libraries": [
+    {
+      "id": "org.ow2.asm:asm:9.10.1",
+      "path": "common/libraries/org/ow2/asm/asm/9.10.1/asm-9.10.1.jar",
+      "url": "https://maven.fabricmc.net/org/ow2/asm/asm/9.10.1/asm-9.10.1.jar",
+      "size": 126151,
+      "sha256": "ed825d10ab1399c8c0cb669e688cf0c8c82629b4c8399b58352b68e92ca10fcb",
+      "md5": "9cb72080438acf27f2607002e1444a7b"
+    },
+    {
+      "id": "org.ow2.asm:asm-analysis:9.10.1",
+      "path": "common/libraries/org/ow2/asm/asm-analysis/9.10.1/asm-analysis-9.10.1.jar",
+      "url": "https://maven.fabricmc.net/org/ow2/asm/asm-analysis/9.10.1/asm-analysis-9.10.1.jar",
+      "size": 35140,
+      "sha256": "dede75a21306b65974ecd8f87114ff6970f09fb794157a4ca09ab25c888c2bfc",
+      "md5": "6dd9011ec87f65e4b2e14e938c4118e4"
+    },
+    {
+      "id": "org.ow2.asm:asm-commons:9.10.1",
+      "path": "common/libraries/org/ow2/asm/asm-commons/9.10.1/asm-commons-9.10.1.jar",
+      "url": "https://maven.fabricmc.net/org/ow2/asm/asm-commons/9.10.1/asm-commons-9.10.1.jar",
+      "size": 74840,
+      "sha256": "6d0abefb7cbf972ea16edb37ec14835372505063a45f976ab7ea889ed9497895",
+      "md5": "8eee0b1bdd046baf472eb83dd5e6bb44"
+    },
+    {
+      "id": "org.ow2.asm:asm-tree:9.10.1",
+      "path": "common/libraries/org/ow2/asm/asm-tree/9.10.1/asm-tree-9.10.1.jar",
+      "url": "https://maven.fabricmc.net/org/ow2/asm/asm-tree/9.10.1/asm-tree-9.10.1.jar",
+      "size": 51958,
+      "sha256": "3dfb0d5b6a106cd40b5b250e39935fbf2f927f4477546a5369a3ac609cf0506b",
+      "md5": "62541e1dc62331408ef31317555bf4fa"
+    },
+    {
+      "id": "org.ow2.asm:asm-util:9.10.1",
+      "path": "common/libraries/org/ow2/asm/asm-util/9.10.1/asm-util-9.10.1.jar",
+      "url": "https://maven.fabricmc.net/org/ow2/asm/asm-util/9.10.1/asm-util-9.10.1.jar",
+      "size": 95628,
+      "sha256": "1bb99d091fba2597dc6d51193e9bbcf0d8447e7ed96bd8f0198b18152f09655c",
+      "md5": "d0892ecb209867805e7d2418e5dc6c42"
+    },
+    {
+      "id": "net.fabricmc:sponge-mixin:0.17.4+mixin.0.8.7",
+      "path": "common/libraries/net/fabricmc/sponge-mixin/0.17.4+mixin.0.8.7/sponge-mixin-0.17.4+mixin.0.8.7.jar",
+      "url": "https://maven.fabricmc.net/net/fabricmc/sponge-mixin/0.17.4+mixin.0.8.7/sponge-mixin-0.17.4+mixin.0.8.7.jar",
+      "size": 1539080,
+      "sha256": "1f0ae44db7295f8626f33b1dc0ad7f043d8954a8d6847247875fcc5dfcecc934",
+      "md5": "9e33b145b2a46fbc70daf532e3705066"
+    },
+    {
+      "id": "net.fabricmc:intermediary:1.21.1",
+      "path": "common/libraries/net/fabricmc/intermediary/1.21.1/intermediary-1.21.1.jar",
+      "url": "https://maven.fabricmc.net/net/fabricmc/intermediary/1.21.1/intermediary-1.21.1.jar",
+      "size": 657725,
+      "sha256": "6059157dfb4a536ec151697004f74f6004b7d346b289c2f89849e0e585aa36fa",
+      "md5": "850be48a3406b9efdf8e64b1c2db97f8"
+    },
+    {
+      "id": "net.fabricmc:fabric-loader:0.19.5",
+      "path": "common/libraries/net/fabricmc/fabric-loader/0.19.5/fabric-loader-0.19.5.jar",
+      "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.19.5/fabric-loader-0.19.5.jar",
+      "size": 1984980,
+      "sha256": "93044e4dd46de5d8136701292f05e868da096d2c9fddb4793e4fdbcc63efc695",
+      "md5": "23bf6a8c5ba938db7d13959a2630357f"
+    }
+  ]
+}
