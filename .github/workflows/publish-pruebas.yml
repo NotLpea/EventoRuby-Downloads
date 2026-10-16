@@ -1,0 +1,70 @@
+name: Publish verified Pruebas pack
+on:
+  push:
+    branches: [release/pruebas-1.0.0]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: publish-pruebas
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: pruebas-1.0.0
+      - uses: actions/github-script@v8
+        with:
+          script: |
+            const fs = require('node:fs')
+            const crypto = require('node:crypto')
+            const path = require('node:path')
+            const spec = JSON.parse(fs.readFileSync('release-inputs/release.json', 'utf8'))
+            const lock = JSON.parse(fs.readFileSync('release-inputs/pruebas.lock.json', 'utf8'))
+            if (spec.tag !== 'pruebas-1.0.0' || lock.mods.length !== 43) throw new Error('Unexpected release inputs')
+            const owned = lock.mods.filter(m => m.releaseRequired)
+            if (owned.length !== 2 || !owned.some(m => m.id === 'ruby-notices') || !owned.some(m => m.id === 'ruby_wither')) throw new Error('Unexpected binary set')
+            const sha = data => crypto.createHash('sha256').update(data).digest('hex')
+            for (const mod of owned) {
+              const bytes = fs.readFileSync(path.join('release-inputs', path.basename(mod.path)))
+              if (bytes.length !== mod.size || sha(bytes) !== mod.sha256) throw new Error('Binary integrity mismatch: ' + mod.id)
+            }
+            const repo = context.repo
+            let release
+            try { release = (await github.rest.repos.getReleaseByTag({...repo, tag: spec.tag})).data }
+            catch (error) { if (error.status !== 404) throw error }
+            if (release && !release.draft) {
+              core.info('Release already published; immutable inputs are not republished.')
+              return
+            }
+            if (!release) release = (await github.rest.repos.createRelease({...repo, tag_name: spec.tag, name: spec.name, draft: true, prerelease: false, body: 'Distribución del canal Pruebas para Evento Ruby Launcher + Prism. Minecraft 1.21.1, Fabric 0.19.5, Java 21. 43 mods; AnimatedFrames y WaterMedia excluidos. Solo se alojan los dos mods propios autorizados. Los demás JAR se obtienen de sus fuentes oficiales. La preparación del modpack está verificada; partida autenticada pendiente de validación manual. Los archivos de entrada auditados están identificados por este tag.'})).data
+            const assets = (await github.rest.repos.listReleaseAssets({...repo, release_id: release.id, per_page: 100})).data
+            async function upload(name, bytes, type) {
+              const existing = assets.find(a => a.name === name)
+              const digest = 'sha256:' + sha(bytes)
+              if (existing) {
+                if (existing.size !== bytes.length || existing.digest !== digest) throw new Error('Existing draft asset differs: ' + name)
+                return existing
+              }
+              const asset = (await github.rest.repos.uploadReleaseAsset({...repo, release_id: release.id, name, data: bytes, headers: {'content-type': type, 'content-length': bytes.length}})).data
+              if (asset.size !== bytes.length || asset.digest !== digest) throw new Error('Uploaded asset integrity mismatch')
+              return asset
+            }
+            const sums = []
+            for (const mod of owned) {
+              const name = path.basename(mod.path)
+              const bytes = fs.readFileSync(path.join('release-inputs', name))
+              const asset = await upload(name, bytes, 'application/java-archive')
+              mod.url = asset.browser_download_url
+              sums.push(mod.sha256 + '  ' + name)
+            }
+            if (lock.mods.some(m => !m.url || !m.url.startsWith('https://'))) throw new Error('Missing public downloads')
+            lock.revision = spec.revision
+            const manifest = Buffer.from(JSON.stringify(lock, null, 2) + '\n')
+            await upload('pruebas.lock.json', manifest, 'application/json')
+            sums.push(sha(manifest) + '  pruebas.lock.json')
+            await upload('SHA256SUMS.txt', Buffer.from(sums.join('\n') + '\n'), 'text/plain')
+            await github.rest.repos.updateRelease({...repo, release_id: release.id, draft: false, make_latest: 'true'})
+            core.info('Published complete verified release: ' + spec.tag)
